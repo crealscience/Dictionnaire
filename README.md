@@ -1,5 +1,6 @@
- Git maintenu et géré par Xavier-Laurent Salvador
- Pour l'archéologie et l'étymologie du projet Crealscience
+#  Pour l'archéologie et l'étymologie du projet 
+
+Git maintenu et géré par Xavier-Laurent Salvador
 
 # Le site du dictionnaire Crealscience
 
