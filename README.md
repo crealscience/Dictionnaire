@@ -2,6 +2,9 @@
    Pour l'archéologie et l'étymologie du projet Crealscience
 */
 
+
+![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/screenShot.png?raw=true)
+
 # Le site du dictionnaire Crealscience
 
 Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac en partenariat avec Joëlle Ducos, Gérard Petit, Michèle Goyens et Fleur Vigneron pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
@@ -16,4 +19,4 @@ Il a également pour ambition de permettre le développement d'une interface erg
 
 Il était architecturé autour d'un outil WYSIWYG en ligne pour l'édition collaborative de données XML né de la dynamique des travaux de thèse de Xavier-Laurent Salvador (2004) sur la gestion du corpus XML de la Bible historiale (http://www.biblehistoriale.fr) et de la rencontre avec Fabrice Issac au sein du Laboratoire LDI (2008); et d'une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur. 
 
-![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/screenShot.png?raw=true)
+
