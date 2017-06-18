@@ -1,0 +1,92 @@
+<!-- Xavier-Laurent Salvador, 2017 -->
+<?php
+	setlocale (LC_TIME, 'fr_FR.utf8','fra'); 
+	include "creal.class.php";
+	include "fonctions.php";
+	include "modules.php";
+	$page = new pageCreal;
+	session_start();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+	<? echo $page -> createHeader(); 
+	    echo $page -> createMathMl(); ?>
+	</head>
+
+<?
+	if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['mail']) && isset($_POST['captcha_code'])) {
+		include_once 'JS/securimage/securimage.php';
+		$securimage = new Securimage();
+			if ($securimage->check($_POST['captcha_code']) == false) {
+				echo '<script>alert("Le code entré est invalide.")</script>';
+			} else {
+			  $exists = queryBasex('
+					if (db:open("utilisateur")//entry[.//mail="'.$_POST['mail'].'"]) then "STOP" else ()
+					');
+				if ($exists == 'STOP') {
+				echo '<script>alert("Votre fiche avec le mail '.$_POST['mail'].' existe dans la base. Merci de contacter Xavier-L. Salvador.")</script>';
+				}
+				else
+				{if (preg_match("/@/", $_POST['mail'])) {
+					$nom = $_POST['nom'].'.'.$_POST['prenom'];
+					$mail = $_POST['mail'];
+					$groupe = 'visiteur';
+					$mdp = $_POST['captcha_code'];
+					$message = 'Bonjour,<br/>Vous avez réalisé votre inscription sur le site du Dictionnaire du français scientifique médiéval. Nous nous réjouissons de nous compter parmi nos lecteurs. Votre identifiant utilisateur est: <b>'.$nom.'</b> et votre mot de passe est: <b>'.$mdp.'</b>. Ne le perdez pas, il vous servira à chaque connexion et vous sera redemandé pour l\'accès aux différents services du dictionnaire.<br/>A bientôt,<br/> L\'équipe du DFSM';
+					$messageadmin = 'Bonjour, <br/>une nouvelle inscription a été enregistrée sur le site du DFSM. Le : '.$_SESSION['date'].', nom:'.$nom.', mail: '.$mail.' et mot de passe: '.$mdp.'. <br/>Bonne journée,<br/> Le CrealMailBot';
+					$result = '<entry><nom>'.$nom.'</nom><mdp>'.$mdp.'</mdp><groupe>'.$groupe.'</groupe><journal><date n="in"></date><date n="out"></date><lock>OUT</lock></journal></entry>';
+					$re = queryBasex(preg_replace('/<NEWMAIL>/',$mail,preg_replace('/<NEWGROUPE>/',$groupe,preg_replace('/<NEWUSER>/',$nom,preg_replace('/<NEWMDP>/',$mdp,$sec[3])))));
+					courriel($mail,'Inscription Crealscience',$message);
+					foreach ($adminmail as $maila) {
+						courriel($maila,'Nouvelle Inscription Crealscience',$messageadmin);
+					}
+					header("Location:http://www.crealscience.fr/index.php?langue=fr&type=postInsc");
+				} else {
+					echo '<script>alert("L\'adresse mail semble incorrecte.")</script>';					
+				}
+			    }	
+			}
+		}
+?>
+
+<body OnLoad=<?echo $bodyonload;?>>
+		<div id='global'>
+			<div id="top">
+	<? echo $page -> createTitre($_SESSION['langue']); ?>
+				<div id="topcahier">
+					<div id="alphabet">
+						<form name="alphabet" action="<?echo $_SERVER["PHP_SELF"].'?langue='.$_SESSION['langue'];?>" method="post"> 
+						<input type="hidden" name="indexlettreonglet" value=""> 
+	<? echo $page -> createAlphabet($_SESSION['authentification'], $_SESSION['groupe']);?>
+						</form>
+					</div>
+				</div>	
+			</div><!-- Fin top -->	
+					
+				<div id="menugauche">
+					<div id="boite"><!--La boîte des boutons-->
+	<? 
+	echo $page->createMenuGauche($BoutonGauche[$_SESSION['langue']]); 
+	?>
+					</div>
+				</div><!-- fin menu gauche-->
+					
+					<div id="contenu">
+						<div id="machincahier">
+						</div>
+					 <div id='fondaffich'>
+						 <div class="texte">
+							<h2>Inscription sur Crealscience</h2>
+							<p>Pour vous inscrire, veuillez saisir les informations du formulaire ci-dessous. Vous recevrez un mail confirmant votre inscription.</p>
+			<div id="creainscription_hype_container" style="margin:auto;position:relative;width:268px;height:250px;overflow:hidden;float:left;" aria-live="polite">
+		<script type="text/javascript" charset="utf-8" src="creaInscription/creaInscription.hyperesources/creainscription_hype_generated_script.js?98534"></script>
+	</div>
+							</div>
+						</div>						
+		</div>
+	<? echo $page -> createFooter();?>
+	</body>
+</html>
