@@ -1,4 +1,5 @@
 <!-- Xavier-Laurent Salvador, 2017 -->
+<!-- Voir http://thisinterestsme.com/php-timer-countdown/ -->
 <?php
 	include('queryBsx.php');
 	session_start();
