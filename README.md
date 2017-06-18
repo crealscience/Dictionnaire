@@ -1,3 +1,7 @@
+/* Git maintenu et géré par Xavier-Laurent Salvador
+   Pour l'archéologie et l'étymologie du projet Crealscience
+*/
+
 # Le site du dictionnaire Crealscience
 
 Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac en partenariat avec Joëlle Ducos, Gérard Petit, Michèle Goyens et Fleur Vigneron pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
