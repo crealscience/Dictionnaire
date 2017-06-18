@@ -1,0 +1,81 @@
+
+<!ELEMENT entry (form,(gramGrp|gramgrp|etym|sense|xr)*,id?)>
+<!ELEMENT form (orth+,date?,valid?,auteur?)>
+	<!ELEMENT orth (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT valid (#PCDATA)>
+	<!ELEMENT auteur (#PCDATA)>
+
+<!ELEMENT gramgrp (gram+)>
+<!ELEMENT gramGrp (gram+)>
+<!ELEMENT gram (#PCDATA)>
+<!ATTLIST gram
+		type	(pos |
+				 gen)	#REQUIRED>
+
+<!ELEMENT etym (bibl,mentioned*)>
+	<!ELEMENT bibl (#PCDATA | bibxref |date | title | author |editor | note |nonit|etymosrc|sup)*>
+		<!ELEMENT title (#PCDATA)>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT editor (#PCDATA)>
+		<!ELEMENT bibxref (#PCDATA)>
+		<!ELEMENT etymosrc (#PCDATA)>
+	<!ELEMENT mentioned (#PCDATA)>
+
+<!ELEMENT sense (usg*,def,note*,cit*)>
+	<!ATTLIST sense
+		mod	(MET. | MED. | MIN. | GEOL. | PHYS. | BOT. | ZOOL.| ING. | CHIM.| CHIR.| ANAT.| DIET.| PHARM.| OPT.| MAG. | DIVI.| MUSIQUE-THEORIE | ARITHM. | ALG. | GEOM. | ASTR.| ASTRL.| AGR.| CONCEPT.| QUALITE.| ACTION.| AUTRE.| ARCHIT.)	#REQUIRED>
+			 
+	<!ATTLIST sense
+		med	(MET. | MED.| ARCH.| Sciences_Nat.| ASTR.| MATH.| MAG. | GEOM.| AGR.| METEO.| AGRIC.| AUTRE.| GENERAL. | ARTMEC.)	#REQUIRED>
+		
+<!ELEMENT def (#PCDATA|img|formula|mml:math|fleur)*>
+<!ELEMENT formula (#PCDATA)>
+
+<!ELEMENT note (xr+)>
+<!ATTLIST note
+	id	(Struct |
+		 encyclo)	#REQUIRED>
+
+<!ELEMENT xr (xr|ref|gloss)+>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST xr
+	type	(syn |
+			 hyp |
+			 cohyp |
+			 var |
+			 V.|
+			 nomen) #IMPLIED>
+	
+<!ELEMENT gloss (#PCDATA | fleur)*>
+
+<!ELEMENT usg (#PCDATA)>
+
+<!ELEMENT cit (quote,bibl)*>
+<!ELEMENT quote (#PCDATA|mark|mark2|formula|mml:math|img|fleur)*>
+
+
+<!-- hors TEI -->
+<!ELEMENT nonit (#PCDATA|style|foliov)*>
+<!ELEMENT style (#PCDATA|sup)*>
+<!ELEMENT sup (#PCDATA)>
+<!ELEMENT foliov (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT mark2 (#PCDATA)>
+<!ELEMENT fleur (#PCDATA)>
+
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED > 
+<!ATTLIST img height CDATA #IMPLIED >
+<!ATTLIST img width CDATA #IMPLIED >	
+<!ATTLIST img alt CDATA #IMPLIED >	
+
+<!ENTITY % MATHML.prefixed "INCLUDE">
+<!ENTITY % MATHML.prefix "mml">
+<!ENTITY % equation.content "(alt?, (graphic+|mediaobject+|mml:math))">
+<!ENTITY % inlineequation.content 
+                "(alt?, (inlinegraphic+|inlinemediaobject+|mml:math))">
+<!ENTITY % mathml PUBLIC "-//W3C//DTD MathML 2.0//EN"
+        "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd">
+%mathml;
