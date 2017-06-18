@@ -1,6 +1,4 @@
 <!-- Xavier-Laurent Salvador, 2017 -->
-<!-- Xavier-Laurent Salvador, 2017 -->
-
 (:0 L'index pour le formulaire input mot:) 
 import module namespace creal = 'http://www.crealscience.fr';           
 for $i in creal:index(
