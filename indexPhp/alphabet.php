@@ -1,3 +1,4 @@
+<!-- Xavier-Laurent Salvador -->
 <form name="alphabet" action="<?echo $_SERVER["PHP_SELF"].'?langue='.$_SESSION['langue'];?>" method="post">
        <input type="hidden" name="indexlettreonglet" value="">
         <?
