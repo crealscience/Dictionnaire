@@ -15,7 +15,7 @@
 
 # Les News
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/crealscience/webSite/blob/master/design/news.png?raw=true)
 
 # L'alphabet animé
 
