@@ -1,0 +1,50 @@
+<!-- Xavier-Laurent Salvador et Fabrice Issac, 2017 -->
+<?php
+	setlocale (LC_TIME, 'fr_FR.utf8','fra'); 
+	include "fonctions.php";
+	 include "creal.class.php";
+        $page = new pageCreal;
+	session_start();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+         <? echo $page -> createHeader();
+            echo $page -> createMathMl(); ?>
+       </head>
+
+	<?php include 'indexPhp/parseCond.php'; ?>
+
+	<body>
+		<div id='global'>
+			<div id="top">
+				<? echo $page -> createTitre($_SESSION['langue']); ?>
+				<div id="topcahier">
+				<div id="alphabet">
+	<? echo $page -> createAlphabet($_SESSION['authentification'], $_SESSION['groupe']);?> 
+				 </div>		
+				</div>	
+			</div><!-- Fin top -->	
+					
+				<div id="menugauche">
+					<div id="boite"><!--La boîte des boutons-->
+	<?
+		include 'indexPhp/formMot.php';
+		echo $page->createMenuGauche($BoutonGauche[$_SESSION['langue']]); 
+	?> 
+					</div>
+				</div><!-- fin menu gauche-->
+					
+					<div id="contenu">
+						<div id="machincahier">
+						</div>
+				 
+						<div id='fondaffich'>
+				 
+	<? include 'indexPhp/parseOrientation.php'; ?>
+		</div>
+	</body>
+		<? include 'indexPhp/indexFilAriane.php'; ?>
+	<? include 'indexPhp/indexFooter.php'; ?>
+</html>
