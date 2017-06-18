@@ -1,0 +1,1962 @@
+/************************************************/
+/* CSS du dictionnaire Crealscience ou DFSM     */
+/* par Xavier-Laurent Salvador et Fabrice ISSAC */
+/* janvier 2012-septembre 2017            			*/
+/************************************************/
+@import url(
+  http://fonts.googleapis.com/css?family=PT+Sans
+);
+/*Animations*/
+@keyframes pulse {
+		0%	{
+    transform: scale(1);
+  }
+		20% {
+    transform: scale(
+      0.9
+    );
+  }
+		50% {
+    transform: scale(1);
+  }	
+		70% {
+    transform: scale(
+      1.1
+    );
+  }
+		80% {
+    transform: scale(1);
+  }
+		90% {
+    transform: scale(
+      1.2
+    );
+  }	
+		100% {
+    transform: scale(1);
+  } 
+	}
+
+@-webkit-keyframes pulse {
+	0%	{
+    -webkit-transform: scale(1);
+  }
+	20% {
+    -webkit-transform: scale(
+      0.9
+    );
+  }
+	50% {
+    -webkit-transform: scale(1);
+  }	
+	70% {
+    -webkit-transform: scale(
+      1.1
+    );
+  }
+	80% {
+    -webkit-transform: scale(1);
+  }
+	90% {
+    -webkit-transform: scale(
+      1.2
+    );
+  }	
+	100% {
+    -webkit-transform: scale(1);
+  } 
+}
+
+@-ms-keyframes pulse {
+	0%	{
+    -ms-transform: scale(1);
+  }
+	20% {
+    -ms-transform: scale(
+      0.9
+    );
+  }
+	50% {
+    -ms-transform: scale(1);
+  }	
+	70% {
+    -ms-transform: scale(
+      1.1
+    );
+  }
+	80% {
+    -ms-transform: scale(1);
+  }
+	90% {
+    -ms-transform: scale(
+      1.2
+    );
+  }	
+	100% {
+    -ms-transform: scale(1);
+  } 
+}
+
+@keyframes blink {
+    0%    {
+    opacity: 0.8;
+  }
+
+	50%  {
+    opacity:0.3;transform:scale(
+      1.5
+    );
+  }
+
+	100% {
+    opacity:1;transform:scale(
+      0.5
+    );
+  }
+}
+@keyframes myfirst {
+	0%   {
+    color: red; left:0px; top:0px;
+  }
+	25%  {
+    color: #FFA500; left:200px; top:0px;
+  }
+	50%  {
+    color: #507299; left:200px; top:200px;
+  }
+	75%  {
+    color: #4D4D4D; left:0px; top:200px;
+  }
+	100% {
+    color: red; left:0px; top:0px;
+  }
+}
+@-webkit-keyframes myfirst {
+	0%   {
+    color: red; left:0px; top:0px;
+  }
+	25%  {
+    color: #FFA500; left:200px; top:0px;
+  }
+	50%  {
+    color: #507299; left:200px; top:200px;
+  }
+	75%  {
+    color: #4D4D4D; left:0px; top:200px;
+  }
+	100% {
+    color: red; left:0px; top:0px;
+  }
+}
+@keyframes slideit {
+	0%    {
+    left:0px; top:0px;
+  }
+
+	50%  {
+    left:20px; top:0px;
+  }
+
+	100% {
+    left:0px; top:0px;
+  }
+}
+@-webkit-keyframes slideit {
+	0%    {
+    left:0px; top:0px;
+  }
+
+	50%  {
+    left:20px; top:0px;
+  }
+
+	100% {
+    left:0px; top:0px;
+  }
+}
+@keyframes feuille {
+	10%  {
+    transform:rotate(
+      10deg
+    )
+  }
+	70%  {
+    transform:rotate(
+      -10deg
+    )
+  }
+}
+@keyframes roule {
+	10%  {
+    transform:rotate(
+      340deg
+    )
+  }
+	70%  {
+    transform:rotate(
+      -10deg
+    )
+  }
+}
+@-webkit-keyframes roule {
+	10%  {
+    transform:rotate(
+      340deg
+    )
+  }
+	70%  {
+    transform:rotate(
+      -10deg
+    )
+  }
+}
+
+@keyframes tangue {
+	10%  {
+    transform:rotate(
+      -20deg
+    )
+  }
+	70%  {
+    transform:rotate(
+      20deg
+    )
+  }
+}
+@-webkit-keyframes tangue {
+	10%  {
+    transform:rotate(
+      -20deg
+    )
+  }
+	70%  {
+    transform:rotate(
+      20deg
+    )
+  }
+}
+
+@keyframes appear {
+  0%   {
+     opacity: 0; 
+  }
+  100% {
+     opacity: 1; 
+  }
+}
+@-moz-keyframes appear {
+  0%   {
+     opacity: 0; 
+  }
+  100% {
+     opacity: 1; 
+  }
+}
+
+@keyframes disappear {
+  0%   {
+     opacity: 1; 
+  }
+  100% {
+     opacity: 0.3; 
+  }
+}
+@-moz-keyframes disappear {
+  0%   {
+     opacity: 1; 
+  }
+  100% {
+     opacity: 0.3; 
+  }
+}
+/*On reprend*/
+/******* Les éléments de base en php, les titres, le texte **/
+body {
+	font-family: 'Source Sans Pro', serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-image:url(
+    './../images/marge2.jpg'
+  );
+	background-size: 100%;	
+}
+.mod {
+	background-color:white;
+	background-image:url(
+    ''
+  );
+}
+h2,h3 {
+	font-family: 'Eagle Lake', cursive;
+	color:#507299;
+	        color:#a98f4f;
+	text-shadow: -4px 2px 0px rgba(
+    255, 255, 255, 1
+  );
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #507299;
+}
+/*Le texte des documents XML*/
+#centrehype{
+	width:550px;
+	float:left;
+}
+.texte {
+  	
+	
+	font-family: 'Source Sans Pro', serif;
+	color:#4D4D4D; 
+	text-align:justify; 	
+	height:80%; 
+	border-radius: 20px 15px 10px 5px;
+	padding-left:14px;
+	/*background-image:url(
+    './../images/fondtxt.png'
+  );*/
+	background-size: 100%;
+	padding-right:10px;	    
+	animation: appear 1s;
+	Z-index:0;
+}
+
+/*Dans la page d'accueil, on dessine une colonne de droite*/
+/*Pour les modules. Cette colonne n'apparaît pas en mode  */
+/*consultation ni en mode édition.*/
+#colonne {
+	/*La colonne elle-même*/
+	font-family: 'PT Serif Caption', serif;
+	font-size:x-small;
+	float:left;
+	width: 180px;
+	/*border-left:solid 1px #8E5543;*/
+	text-align:right;
+	padding-top:15px;
+	padding-right:15px;
+	color:#8E5543;
+	margin-left:30px;
+}
+/******* La Structure du site **/
+/*Les cadres de positionnement */
+
+#global {
+	/*Le haut, la gauche, la droite, le dessous */		
+}
+#feuilles{
+	/*background-image:url(
+    './../images/feuille/petitefeuille.png'
+  );
+	position:absolute;
+	right:0px;
+	width:87px;
+	height:103px; 
+	animation:feuille 5s linear 1s infinite alternate;
+		background-size: 100%;*/
+}
+#hautcote {
+	/*Le Logo du projet, la vieille femme*/
+	position: absolute;
+	left:0px;
+	top:0px;
+	height:85px;
+}
+#hautcote:hover{
+	animation: blink 0.5s linear 1s infinite alternate;
+	-webkit-animation: blink 0.5s linear 1s infinite alternate;
+}
+#top {
+	/*La zone du titre et de l'alphabet*/
+	padding-left: 0px;
+	padding-top: 15px;
+	padding-bottom: 60px;
+	width:100%;
+	border-color:#8E5543;
+    /*border-style:solid;
+    border-width: 1px;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+	background-color: rgba(
+    255, 255, 255, 0.7
+  );	*/
+	/*background-color:#eff0e2;*/
+	background-image:url(
+    './../images/degrademanuscrit.png'
+  );
+	background-size: 100%;
+	
+}
+#titrepos1 {
+	/*Le titre à proprement parler*/
+	font-family: 'Eagle Lake', cursive;
+	color:#BDA663;
+	color:white;
+	color:#a98f4f;
+	font-size:30px;
+	padding-left:30px;
+	padding-bottom: 0px;
+	margin-left:20px;
+	border-color:#8E5543;
+    	border-style:solid;
+   	border-width: 2px;
+    	border-left:none;
+    	border-left:none;
+    	border-right:none;
+    	border-top:none;
+    	width:85%;
+    	behavior: url(
+    'http://www.crealscience.fr/JS/pie/PIE.htc'
+  );
+	border-bottom-right-radius: 30px;
+	text-shadow: -3px 3px 0px rgba(
+    230, 159, 16, 1
+  );
+	text-shadow: -3px 5px 0px rgba(
+    255, 255, 255, 1
+  );
+}
+#alphabet {
+	/*Le Ruban de l'alphabet*/
+	font-family: 'Eagle Lake', cursive;
+	float: left; 
+	text-align:justify;
+	color:white;
+	padding-left:0px;
+	margin-left:5px;
+}
+#xx {
+	/*La zone de chaque lettre cliquable*/
+	float: left; 
+	text-align:justify;
+	color:#507299;	
+	padding:2px;
+}
+#xx>a {
+	/*Dans la zone, la lettre cliquable*/
+	behavior: url(
+    'http://www.crealscience.fr/JS/pie/PIE.htc'
+  );
+	border-radius: 10px;
+	display:block;
+	width:27px;
+	margin-left:3px;
+	text-align:center;
+	text-decoration: none;
+	color:white;
+	background: #ebb105;
+        background-image: -webkit-linear-gradient(
+    top, #a98f4f, #ede4ac
+  );
+        background-image: -moz-linear-gradient(
+    top, #a98f4f, #ede4ac
+  );
+        background-image: -ms-linear-gradient(
+    top, #a98f4f, #ede4ac
+  );
+        background-image: -o-linear-gradient(
+    top, #a98f4f, #ede4ac
+  );
+        background-image: linear-gradient(
+    to bottom, #a98f4f, #ede4ac
+  );
+	 -moz-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	-webkit-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	-o-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	box-shadow: -4px 6px 5px 0px #9b9b9b;
+	filter:progid:DXImageTransform.Microsoft.Shadow(
+    color=#9b9b9b, Direction=236, Strength=5
+  );
+	border-left:3px solid white;
+	border-top:3px solid white;
+	}
+
+#xx>a:hover{
+     transform:scale(
+    1.2
+  );
+    -ms-transform:scale(
+    1.2
+  ); /* IE 9 */
+    -moz-transform:scale(
+    1.2
+  ); /* Firefox */
+    -webkit-transform:scale(
+    1.2
+  ); /* Safari and Chrome */
+    -o-transform:scale(
+    1.2
+  ); /* Opera */
+      background: #ede4ac;
+  background-image: -webkit-linear-gradient(
+    top, #ede4ac, #a98f4f
+  );
+  background-image: -moz-linear-gradient(
+    top, #ede4ac, #a98f4f
+  );
+  background-image: -ms-linear-gradient(
+    top, #ede4ac, #a98f4f
+  );
+  background-image: -o-linear-gradient(
+    top, #ede4ac, #a98f4f
+  );
+  background-image: linear-gradient(
+    to bottom, #ede4ac, #a98f4f
+  );
+}
+#xx a:active {
+	/*Quand on clique sur la lettre*/
+	background-color:white;
+    border-radius: 10px;
+}
+
+#xx a:not(:active
+){
+	/*animation: roule 2s linear;
+	-webkit-animation: roule 2s linear;
+	animation: disappear  2s linear 1s infinite alternate;
+	-webkit-animation: disappear 2s linear 1s infinite alternate;*/
+}
+
+/*Toute la zone centrale, à commencer par le menu de gauche*/
+#menugauche {
+	/*On définit une colonne à gauche qui accueillera le menu*/
+	float:left;
+	padding-top: 5px;
+	margin-left: 2px;
+	color:#577dad;
+}
+#boite {
+ 
+	/*On dessine une boîte du menu*/
+	/*Ce qui laisse la possibilité*/
+	/*d'ajouter des infos à gauche*/
+	float:left;
+} 
+#menucote {
+ 
+	/*Le menu àç proprement parler*/
+	float: left;
+	list-style: none;
+	margin-left:1px;
+	padding:1px 15px 21px 15px;
+	background-image:url(
+  './../images/fondbarreleftold.png'
+);
+	background-size: 100%;
+	text-transform: uppercase;
+	font-size: small;
+	border-radius: 15px 15px 15px 15px;
+    	behavior: url(
+  'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+    	border-color:#8E5543;
+    	border-style:solid;
+	border-width: 1px;
+   	border-right:none;
+   	border-bottom-width:3px;
+   	border-left-width:3px;
+   	width:80px;
+   	height:250px;
+	-moz-box-shadow: 10px 2px 11px 0px #656565;
+	-webkit-box-shadow: 10px 2px 11px 0px #656565;
+	-o-box-shadow: 10px 2px 11px 0px #656565;
+	box-shadow: 10px 2px 11px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(
+  color=#9b9b9b, Direction=101, Strength=5
+);
+} 
+
+#menucote>li>a {
+	/*font-family:'Source Sans Pro', serif; 
+	*/
+	display:block;
+	/*text-decoration:none;
+	list-style: none;
+	border-radius: 10px;    
+	height:30px;
+	color:#507299;
+	margin-left:8px;
+	text-align:center;*/
+	font-family: 'Eagle Lake', cursive;
+	text-align: center;
+	margin-top:20px;
+        background: #ebb105;
+        background-image: -webkit-linear-gradient(
+  top, #a98f4f, #ede4ac
+);
+        background-image: -moz-linear-gradient(
+  top, #a98f4f, #ede4ac
+);
+        background-image: -ms-linear-gradient(
+  top, #a98f4f, #ede4ac
+);
+        background-image: -o-linear-gradient(
+  top, #a98f4f, #ede4ac
+);
+        background-image: linear-gradient(
+  to bottom, #a98f4f, #ede4ac
+);
+        color: #ffffff;
+        font-size: 10px;
+	margin-left: 3px;
+        padding: 3px 8px 3px 8px;
+	width: 80%;
+	border-left:3px solid white;
+	border-right:3px solid white;
+	border-radius:20px;
+	-moz-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	-webkit-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	-o-box-shadow: -4px 6px 5px 0px #9b9b9b;
+	box-shadow: -4px 6px 5px 0px #9b9b9b;
+	filter:progid:DXImageTransform.Microsoft.Shadow(
+  color=#9b9b9b, Direction=236, Strength=5
+);
+	text-shadow: -1px 2px 0px rgba(
+  150, 150, 150, 1
+);
+} 
+
+#menucote a.boutonspec {
+	/*classe des boutons spéciaux*/
+	/*Plus utilisé depuis 2012*/
+	color:#f4a460;
+}
+
+#menucote a:hover {
+ 
+	/*Etat des boutons pour survol*/
+	/*transform:scale(
+  0.8
+);
+	*/
+	background: #ede4ac;
+	background-image: -webkit-linear-gradient(
+  top, #ede4ac, #a98f4f
+);
+	background-image: -moz-linear-gradient(
+  top, #ede4ac, #a98f4f
+);
+ 	background-image: -ms-linear-gradient(
+  top, #ede4ac, #a98f4f
+);
+  	background-image: -o-linear-gradient(
+  top, #ede4ac, #a98f4f
+);
+  	background-image: linear-gradient(
+  to bottom, #ede4ac, #a98f4f
+);
+} 
+
+#menucote a:active {
+	/*Etat des boutons quand clic*/
+	color: #8E5543;
+	background-color: #FEDD9E;	
+}
+
+#menucote a:not(:active
+):not(:hover
+){
+	/*Etat des boutons quand clic*/
+	/*animation: tangue 0.5s linear;
+	-webkit-animation: tangue 0.5s linear;*/
+}
+/*On passe maintenant à la description*/
+/*de la zone centrale*/ 
+#topcahier {
+ 
+	/*la zone du formulaire de recherche*/
+} 
+#machincahier {
+ 
+	/*Un héritage inutilisé*/
+} 
+
+#contenu,#bla {
+	/*Contenu accueille aussi bien le texte que l'index*/
+	/*ou les fiches lexicographiques*/
+	/*Quant à bla, c'est l'un des messages du correcteur*/
+	float:left;
+	width:80%;
+	margin-left: 24px;
+	color:black;
+	margin-top:5px;
+	/*background-color: rgba(
+255, 255, 255, 0.5
+);*/
+	/*background-color:rgba(
+239,240,226,0.4
+);*/
+	/*border-radius: 20px 20px 20px 20px;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+	filter:alpha(
+opacity=92
+); 
+	padding-bottom:20px;
+	border-color:#507299;
+    border-style:solid;
+    border-width: 1px;
+    border-right-width: 3px;
+    border-left:none;
+    min-height:100px;
+    padding-right:40px;*/
+} 
+#contenuEdit{
+	/*Style de la zone de la fiche éditable*/
+	background-color:white;
+	width:100%;
+	height:100%;
+}
+#fondaffich,#fondaffichExo {
+	/*Le fond de l'affichage pour l'index*/
+	float:left;
+	width:100%;
+	min-height:380px;
+	margin-left:12px;
+	padding-left: 5px;
+	/*background-color: rgba(
+255, 255, 255, 0.5
+);*/
+	/*background-image:url(
+'./../images/degrademanuscritlisse.png'
+);*/
+	background-size: 100%;
+	border-radius: 20px 20px 20px 20px;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+}
+#fondaffich{
+	background-image:url(
+'./../images/degrademanuscritlisse.png'
+);
+}
+#fondaffichExo{
+	background-color:white;
+}
+#affichdata {
+	/*Le fond d'affichage pour le texte*/
+	width:20%;
+	float:left;
+	font-size:x-small;
+	margin-left: 20px;
+	padding:20px 20px 20px 25px;
+	background-color:white;
+	overflow:auto; 
+    border-radius: 15px 15px 15px 15px;
+    border-color:#123456;
+    border-style:solid;
+    border-width: 1px;
+    box-shadow: -5px -0px 5px #888;
+    behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+}
+/*Definitions du jour*/
+#defj {
+	/*Style de la def du jour*/
+	font-family: 'Belleza', sans-serif;
+	margin-top:5px;
+	text-align:left;	
+}
+#gramj {
+	/*La grammaire du mot du jour*/
+	font-family: 'Belleza', sans-serif;	
+	color:#4D4D4D; 
+	padding-top:0px;
+	margin-top:0px;
+}
+#orthj {
+	/*La vedette du mot du jour*/
+	font-family: 'Eagle Lake', cursive;
+
+	color:black;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+#entryj{
+	/*Le cadre de la définition du jour*/
+	display:block;	
+	margin-top:15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 95%;
+	text-align:justify;
+	color:black;
+	background-color:transparent;
+	background-image:url(
+'./../images/entryj.jpg'
+);
+	background-size: 100%;	
+	border-radius: 10px 10px 0px 0px;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+	padding:5px;
+	font-size:small;
+	margin-bottom:10px;
+	border-left: 4px solid white;
+	border-top: 4px solid white;
+}
+#usgj{
+	display:inline;
+	padding-right: 5px;
+	font-weight:bold;
+}
+/*On passe à la description de l'index ***/
+#roomliste {
+	/*La room list accueille la liste des vedettes*/
+}
+#listevedette {
+	/*La liste des vedettes surt trois colonnes*/
+	/*Parfois, ça bouge sous la souris*/
+	/*Merci de m'avertir si solution.*/
+	font-family: 'PT Serif Caption', serif;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+	float:left;
+	border-radius: 20px 20px 20px 20px;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+	width:100%;
+	font-size:0.8em;
+	padding:15px;
+} 
+.colonun{
+	max-width:250px;
+}
+.colondeux{
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+	-moz-column-rule: 0.5em double #507299;
+	column-rule: 0.4em outset #507299;
+	 column-span: all;
+	 max-width:500px;
+}
+.colontrois{
+	-webkit-columns: 4;
+	-moz-columns: 4;
+	columns: 4;
+	-moz-column-rule: 0.5em double #507299;
+	column-rule: 0.4em outset #507299;
+	 column-span: all;
+}
+#listevedette a {
+	/*L'index*/
+	text-decoration: none;
+}
+#listevedette>ul>li,#listevedette>form>ul>li{
+	margin-top:6px;
+	padding:10px;
+}
+#listevedette>ul>li:hover{
+
+
+}
+/*Le style de l'administration*/
+/*avec la barre d'outil PDF, XML*/
+#volet {
+    width: 320px;
+    padding: 10px;
+    background: #BDA663; color: #fff;	
+    position: fixed;
+    right: -340px; top: 55px;
+     -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+#volet a.ouvrir,#volet a.fermer  {
+	padding:10px 25px;
+    background: #BDA663;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 310px;
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(
+90deg
+);
+    -moz-transform: rotate(
+90deg
+);
+    -webkit-transform: rotate(
+90deg
+);
+    transform: rotate(
+90deg
+);
+    border-radius: 0 0 8px 8px;
+    border-left: 3px solid white;
+}
+#volet:target {
+    right: 0;
+}
+#volet a.fermer {
+    display: none;
+}
+#volet_clos:target #volet {
+    right: -270px;
+}
+#volet:target a.ouvrir {
+    display: none;
+}
+#volet:target a.fermer {
+    display: block;
+}
+
+#onglets{
+	/*La barre elle-même*/
+	display:block;
+	margin-top:5px;
+	background-color:#EEEFE1;
+	width:75%;
+	padding:8px;
+	text-align:center;
+}
+.ongl,.ongl2 {
+	/*les boutons de la barre*/
+	font-family: 'PT Serif Caption', serif;
+	padding: 4px;
+	margin:2px;
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+	-moz-border-radius: 10px;
+   	 -webkit-border-radius: 10px;
+   	 border-radius: 10px;
+   	 font-size: small;
+	background: #ebb105;
+        background-image: -webkit-linear-gradient(
+top, #a98f4f, #ede4ac
+);
+        background-image: -moz-linear-gradient(
+top, #a98f4f, #ede4ac
+);
+        background-image: -ms-linear-gradient(
+top, #a98f4f, #ede4ac
+);
+        background-image: -o-linear-gradient(
+top, #a98f4f, #ede4ac
+);
+        background-image: linear-gradient(
+to bottom, #a98f4f, #ede4ac
+);
+	-moz-box-shadow: -2px 4px 5px 0px #9b9b9b;
+        -webkit-box-shadow: -2px 4px 5px 0px #9b9b9b;
+        -o-box-shadow: -2px 4px 5px 0px #9b9b9b;
+        box-shadow: -2px 4px 5px 0px #9b9b9b;
+	color:white;
+	border-left: 3px solid white;
+}
+
+.ongl:hover, .ongl2:hover {
+	background: #ede4ac;
+        background-image: -webkit-linear-gradient(
+top, #ede4ac, #a98f4f
+);
+        background-image: -moz-linear-gradient(
+top, #ede4ac, #a98f4f
+);
+        background-image: -ms-linear-gradient(
+top, #ede4ac, #a98f4f
+);
+        background-image: -o-linear-gradient(
+top, #ede4ac, #a98f4f
+);
+        background-image: linear-gradient(
+to bottom, #ede4ac, #a98f4f
+);
+}
+
+#onglets>.ongl {
+margin: 15px;border-radius:0px;
+}
+
+a.ongl{
+	color:white;	
+}
+.ongl2{
+	width:60px;
+}
+a.ongl:hover {
+	/*etat des boutons*/
+	background-color: #E6E6FA;
+	transform:scale(
+1.2
+);
+    -ms-transform:scale(
+1.2
+); /* IE 9 */
+    -moz-transform:scale(3); /* Firefox */
+    -webkit-transform:scale(
+1.2
+); /* Safari and Chrome */
+    -o-transform:scale(
+1.2
+); /* Opera */
+}
+.drapeaux {
+	/*etat des drapeaux*/
+	float:left;
+	list-style-type: none;
+	padding:0px;
+}
+.drapeaux>a>img{
+	width:15px;
+	height:10px;	
+	margin-left:2px;
+}
+.drapeaux>a>img:hover{
+		transform:scale(
+1.2
+);
+    -ms-transform:scale(
+1.2
+); /* IE 9 */
+    -moz-transform:scale(
+1.2
+); /* Firefox */
+    -webkit-transform:scale(
+1.2
+); /* Safari and Chrome */
+    -o-transform:scale(
+1.2
+); /* Opera */
+}
+#synonymes {
+	color:red;
+}
+.button {
+	border: 1px solid #006;
+	background: #9cf;
+}
+#horscont {
+	width:100%;
+	clear:both;
+}
+.perso5 {
+	border:none;
+}
+.fleches {
+	height:17px;
+	border:none;
+}
+img.fleches:hover{
+	transform:scale(
+1.4
+);
+    -ms-transform:scale(
+1.4
+); /* IE 9 */
+    -moz-transform:scale(
+1.4
+); /* Firefox */
+    -webkit-transform:scale(
+1.4
+); /* Safari and Chrome */
+    -o-transform:scale(
+1.4
+); /* Opera */
+}
+/*La page d'édition des fiches ISILEX*/
+textarea{
+	/*La text area active*/
+	width:50% ;
+	height:100%;
+	resize:none; 
+}
+#controle {
+	/*La div de la fiche stylée*/
+	/*Dans Isilex*/
+	float:left;
+	width:85%;
+	margin-left:5%;
+	background:white;
+}
+#controle>#onglets {
+display:none;
+}
+
+#edit,#editdroite {
+	/*La zone d'édition*/
+	float:left;
+	margin-top:10px;
+	width:48%;
+	background:white;
+	height:20%;
+}
+#editdroite{
+	width:48%;
+	height:20%;
+}
+
+#txtdef,#txtcss,#txtdtd,#txttest{
+	/*La textarea spécifique*/
+	/*de Modifier.php*/
+	float:left;
+	width:100%;
+	background:white;
+}
+#txtdef2 {
+	/*zone de test (
+oui, test
+)*/
+	position:fixed;width:40%;
+}
+#boutongauche {
+	/*Le style des boutons de gauche*/
+	margin-left:48%; 
+	margin-bottom:5px;
+}
+#commentaires{
+	/*Commentaires de l'auteur d'une fiche*/
+	display:block;
+	height:40px;
+	width: 300px;
+	background-color:rgba(
+25,254,25,0.1
+);
+	padding:10px;
+}
+
+#deffinale{
+	/*Affiche la fiche dans Parse and Save*/
+	display:block;
+	background-color:rgba(
+25,254,25,0.1
+);
+	border-radius:10px;
+	padding:10px;
+	height: 300px;
+	color:white;
+	display:block;
+	clear:both;
+	margin:20px;
+	}
+
+#renvoi,#renvoidroite,#renvoidtd {
+	/*Les messages de l'éditeur ISILEX*/
+	font-size:small; 
+	color:#00FF00;
+	margin:10px;
+	background-color:black;
+}
+#editEntry {
+	/**/
+	}
+#formModifFly {
+	/*Le message sticky qui appraît*/
+	/*Quand on modifie directement */
+	/*une fiche lexicographique.*/
+	position:fixed;
+	width:100%;
+	height:20%;
+	right:1px;
+	top:1px;
+	background:black;
+}
+.erreur{
+	color:red;
+}
+/*L'index*/
+.vert{
+	display:inline;
+	background-image:url(
+'../images/500px-Cadenas-ouvert-vert.svg.png'
+);
+	background-repeat:no-repeat;
+	background-size:10px;
+	background-position:left;
+	padding-left:14px;	
+	/*border-bottom:1px solid green;*/
+	border-bottom-left-radius:8px;
+	/*color:green;*/
+}
+.rouge{
+	display:inline;
+	background-image:url(
+'../images/Cadenas-1-.png'
+);
+	background-repeat:no-repeat;
+	background-size:10px;
+	background-position:left;
+	padding-left:14px;	
+	/*border-bottom:1px solid red;*/
+	border-bottom-left-radius:8px;
+	/*color:#B36A57;*/
+}
+.favo{
+	display:inline;
+	background-image:url(
+'../images/tagr1.png'
+);
+	background-repeat:no-repeat;
+	background-size:10px;
+	background-position:left;
+	padding-left:14px;	
+	/*border-bottom:1px solid red;*/
+	border-bottom-left-radius:8px;
+	color:#B36A57;
+	width:300px;
+	padding:15px;
+}
+.favo>span{
+	display:none;
+	}
+.favo:hover span{
+	display:block;
+	position:absolute;
+	top:210px; left:200px;
+	border:1px solid #000;
+	color:white;
+	max-width:300px;
+	overflow:hidden;
+	text-align: justify;
+	font-weight:none;
+	padding:25px;
+	border-radius:8px;
+	background-color: #4D4D4D;
+}
+.bin{
+	background-image:none;
+}
+.listing, .listingAND{
+	display:inline;	
+	padding-left:14px;
+	font-family: 'PT Serif Caption', serif;
+	font-family: 'Eagle Lake', cursive;	
+	font-size: 11px;
+}
+.listingAND{
+	color:#ae9650;
+}
+.verrou{
+	display:inline;
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position:93% 50%;
+	padding-right:28px;	
+}
+.login{
+		background-image:url(
+'../images/cadenas.png'
+);
+		background-size:20px;
+		background-repeat:no-repeat;
+}
+.exit{
+		background-image:url(
+'../images/cadenopn.png'
+);
+		background-size:20px;
+		background-repeat:no-repeat;
+}
+.lock{
+		background-image:url(
+'../images/Cadenas-1-.png'
+);
+}
+.open{
+		background-image:url(
+'../images/500px-Cadenas-ouvert-vert.svg.png'
+);
+}
+.nwadd{
+	display:inline;
+	background-image:url(
+'../images/estrella_01.svg'
+);
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position:left;
+	padding-left:14px;	
+	/*border-bottom:1px solid green;*/
+	border-bottom-left-radius:8px;
+	color:green;
+}
+.etoile{
+	background-color:transparent;
+	padding-bottom:0px;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.lettrineindex{
+	font-family: 'PT Serif Caption', serif;
+	text-align:center;
+	display:block;
+	text-align:center;
+	font-size:	xx-large;
+	color:#BDA663;
+	width:40%;
+	cursor:default;
+	padding:10px;
+	margin-bottom:20px;
+	border-top:3px solid #507299;
+	border-bottom:3px solid #507299;
+	background-color:	rgba(
+207, 194, 176, 0.3
+);
+	border-radius:8px;
+	}
+#ancres{
+	position:fixed;
+	left:160px;
+	width:25px;
+	/*background-color:rgba(
+207, 194, 176, 0.3
+);
+	*/
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:5px;
+}
+#ancres>a{
+	font-family: 'Eagle Lake', cursive;
+	font-size:x-small;
+	display:block;
+	padding-top:8px;
+	text-align:center;
+}
+#ancres>a:hover {
+	transform:scale(
+1.5
+);
+	}
+#ancres>a:active {
+color:white; background-color:#ae9650; border-radius:20px;
+}
+/**/
+#colpropreleft {
+	margin-left:15px;
+	margin-top:65px;
+	text-align:center;
+}
+
+#colpropre {
+	float:left;
+	text-align:center;
+	width:50%;	
+}
+
+#testValid{
+float:left;
+}
+#editcss, #editdtd{
+padding-top:10px;margin-top:10px;float:left;margin-left:0px;width:47%;background-color:white;
+}
+#waitValid{
+float:left; width:98%; text-align:justify;
+}
+#footer{
+	font-family: 'PT Serif Caption', serif;
+	font-size:small;
+	float: left;
+	width:100%;
+	background:transparent;
+	text-align:center;
+}
+
+#diff{
+	display:none;
+}
+
+#diff>a{
+	padding:10px 25px;
+    background: #BDA663;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 250px;
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(
+90deg
+);
+    -moz-transform: rotate(
+90deg
+);
+    -webkit-transform: rotate(
+90deg
+);
+    transform: rotate(
+90deg
+);
+    border-radius: 0 0 8px 8px;
+}
+#adminmot{
+	float:left;
+	width:30%;
+	overflow:hidden;
+}
+#adminmotaff{
+float:left;
+width:68%;
+}
+
+textarea#comadmin{
+	max-height:35px; 
+	width:160px;
+	display:block; 
+	color:blue; 
+	font-size:0.8em;
+	-webkit-border-image:url(
+'images/border.png'
+) 30 30 stretch; /* Safari 5 */
+	-o-border-image:url(
+'images/border.png'
+) 30 30 stretch; /* Opera */
+	border-image:url(
+'images/border.png'
+) 30 30 stretch;
+}
+
+#comment{
+	padding-bottom:15px;
+	text-align:justify;
+	font-size:small;
+	background-color:rgba(
+255,255,0,0.3
+);
+}
+
+/*Specs pour RestXq*/
+a.validok {
+color:green; text-decoration:underline;
+}
+a.validfalse {
+color:red; text-decoration:underline;
+}
+
+#news{
+border-top: 3px solid white; border-left: 3px solid white; background-color:rgba(
+255,209,48,0.2
+);display:block;width:95%; padding:15px;border-radius:10px;text-align:justify;
+}
+
+#idefx {
+  width: 150px; background-color: rgba(
+255,255,255,0.6
+); text-align:left; padding: 7px;  
+		border: 1px solid #aaa;	 
+		border-radius: 3px;	 
+		box-shadow: inset 0 1px 7px rgba(
+0, 0, 0, 0.1
+);	 
+}
+
+#idefx:focus	{
+outline: none;	
+		box-shadow: inset 0 1px 1px rgba(
+0, 0, 0, 0.3
+);
+	}
+
+.boutonR {
+		width:28px;
+		cursor:pointer;
+		vertical-align:bottom;
+		/*-webkit-animation:pulse 2s infinite linear;
+		animation:pulse 2s infinite linear;*/
+	}
+
+#inputdfx {
+              width:350px;
+        }
+
+#lab {
+font-size: xx-small;
+}
+
+
+/*IDEFX*/
+#goo {
+padding-left: 50px;
+}
+.droite {
+	margin-left:200px;
+	}
+
+#resT {
+	
+	margin-bottom: 33px;
+	margin-top: 2px;
+	/*background-color:white;*/
+}
+
+#resT a {
+	font-size:x-small;  
+        font-weight: bold;
+	}
+
+#res {
+        margin: 0px;
+	margin-bottom:10px;
+	border-left: 3px solid white;
+	border-bottom: 5px solid white;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	padding: 2px; 
+	padding-right: 0px;
+	min-height: 50px;
+	width: 600px;
+	margin-bottom: 15px;
+	padding-bottom:10px;
+    	background: -moz-linear-gradient(
+top, rgba(
+255,255,255,1
+) 0%, rgba(
+255,255,255,0
+) 100%
+); /* FF3.6+ */
+	background: -webkit-gradient(
+linear, left top, left bottom, color-stop(
+0%,rgba(
+  255,255,255,1
+)
+), color-stop(
+100%,rgba(
+  255,255,255,0
+)
+)
+); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(
+top, rgba(
+255,255,255,1
+) 0%,rgba(
+255,255,255,0
+) 100%
+); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(
+top, rgba(
+255,255,255,1
+) 0%,rgba(
+255,255,255,0
+) 100%
+); /* Opera 11.10+ */
+	background: -ms-linear-gradient(
+top, rgba(
+255,255,255,1
+) 0%,rgba(
+255,255,255,0
+) 100%
+); /* IE10+ */
+	background: linear-gradient(
+to bottom, rgba(
+255,255,255,1
+) 0%,rgba(
+255,255,255,0
+) 100%
+); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(
+ startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 
+); /* IE6-9 */
+	display:block;
+	clear:both;
+	}
+
+.keyword {
+ font-size:large; margin: 5px;
+}
+.float {
+float:left;
+}
+
+#domax {
+display:none;
+}
+
+#footeridefx {
+	display:block;
+	clear:both;
+	font-size:small;
+	border-top-right-radius:20px;
+	border-bottom: 1px solid black;
+	width: 97%;
+	padding-top: 0px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	background-color:white;
+}
+#sousent {
+margin-left: 15px;
+}
+#sousent.keyword.float>a  {
+	float: left; 
+/*	background: #3498db;
+ 	 background-image: -webkit-linear-gradient(
+top, #3498db, #2980b9
+);
+ 	 background-image: -moz-linear-gradient(
+top, #3498db, #2980b9
+);
+ 	 background-image: -ms-linear-gradient(
+top, #3498db, #2980b9
+);
+ 	 background-image: -o-linear-gradient(
+top, #3498db, #2980b9
+);
+ 	 background-image: linear-gradient(
+to bottom, #3498db, #2980b9
+);
+ */	 font-family: Arial;
+	  color: black;
+ 	 font-size: 8px;
+ 	 text-decoration: none;
+	}
+
+#sousent.keyword.float>a:hover {
+	background: #3cb0fd;
+  	background-image: -webkit-linear-gradient(
+top, #3cb0fd, #3498db
+);
+	background-image: -moz-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: -ms-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: -o-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: linear-gradient(
+to bottom, #3cb0fd, #3498db
+);
+  	text-decoration: none;
+	}
+
+.dico {
+ 
+	background: #3498db;
+ 	background-image: -webkit-linear-gradient(
+top, #3498db, #2980b9
+);
+  	background-image: -moz-linear-gradient(
+top, #3498db, #2980b9
+);
+  	background-image: -ms-linear-gradient(
+top, #3498db, #2980b9
+);
+  	background-image: -o-linear-gradient(
+top, #3498db, #2980b9
+);
+  	background-image: linear-gradient(
+to bottom, #3498db, #2980b9
+);
+  	/*-webkit-border-radius: 28;
+  	-moz-border-radius: 28;
+ 	border-radius: 28px;
+  	*/font-family: Arial;
+  	color: #ffffff;
+  	font-size: 12px;
+        padding: 7px 11px 7px 11px;
+	text-decoration: none;
+ 	float:left;
+		}
+
+.dico:hover {
+	background: #3cb0fd;
+  	background-image: -webkit-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: -moz-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: -ms-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: -o-linear-gradient(
+top, #3cb0fd, #3498db
+);
+  	background-image: linear-gradient(
+to bottom, #3cb0fd, #3498db
+);
+  	text-decoration: none;
+	}	
+
+.gold {
+	background: #ebb105;
+  	background-image: -webkit-linear-gradient(
+top, #ebb105, #b8792c
+);
+  	background-image: -moz-linear-gradient(
+top, #ebb105, #b8792c
+);
+ 	background-image: -ms-linear-gradient(
+top, #ebb105, #b8792c
+);
+  	background-image: -o-linear-gradient(
+top, #ebb105, #b8792c
+);
+  	background-image: linear-gradient(
+to bottom, #ebb105, #b8792c
+);
+  	font-family: Arial;
+ 	color: #ffffff;
+ 	font-size: 12px;
+	padding: 7px 11px 7px 11px;
+  	text-decoration: none;
+	}
+
+.gold:hover {
+	background: #ebb105;
+  	background-image: -webkit-linear-gradient(
+top, #ebb105, #ebb105
+);
+  	background-image: -moz-linear-gradient(
+top, #ebb105, #ebb105
+);
+  	background-image: -ms-linear-gradient(
+top, #ebb105, #ebb105
+);
+ 	background-image: -o-linear-gradient(
+top, #ebb105, #ebb105
+);
+  	background-image: linear-gradient(
+to bottom, #ebb105, #ebb105
+);
+  	text-decoration: none;
+}
+
+#mention {
+	float:left;
+	}
+
+#dom, .dom {
+	display:inline; 
+	font-size:small;
+	        background: #ebb105;
+        background-image: -webkit-linear-gradient(
+top, #ebb105, #b8792c
+);
+        background-image: -moz-linear-gradient(
+top, #ebb105, #b8792c
+);
+        background-image: -ms-linear-gradient(
+top, #ebb105, #b8792c
+);
+        background-image: -o-linear-gradient(
+top, #ebb105, #b8792c
+);
+        background-image: linear-gradient(
+to bottom, #ebb105, #b8792c
+);
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 10px;
+        padding: 3px 8px 3px 8px;
+        text-decoration: none;
+	}
+
+#mentionsyno {
+	clear:both;
+	margin-left: 15px;
+	margin-top: 1px;	
+/*	display:inline;
+*/	
+}
+
+#mentionsyno > a.gold {
+font-size: x-small; color:white;
+}
+
+#resres, #resresl {
+	margin: 10px;
+	margin-right:0px;
+	font-size: small;
+	text-transform: lowercase;
+	}
+
+#resres[score^="500"],#resres[score^="400"] {
+     border-top-left-radius:20px;
+		}
+#mentionsyno > resres {
+border: 6px solid white;
+}
+
+#ext > quote, #xls > quote {
+ padding:0px; font-style:normal; 
+}
+
+#ext {
+	border-left: 6px solid white;
+	border-right: 6px solid white;
+	margin-bottom: 25px;
+	width: 300px;
+	float:right;
+	background-color:#f2ebcd; padding:8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	}
+ 
+#resres[score^="500"] > #ext,#resres[score^="400"]  > #ext {
+display:none;
+}
+
+#resresl {
+margin: 30px; display:block;clear:both;color:#0d5519; font-weight: bold;
+}
+
+#resresl[score^="500"] {}
+
+mark {
+ margin-left: 6px; margin-right: 6px;
+}
+a {
+ text-decoration: none;
+}
+#resres mark {
+	color:#42424b;
+	background-color: rgba(
+255,255,255,0.5
+);
+	font-weight:bold;
+	border-radius : 20px;
+	}
+
+#resres a{
+	font-size: medium;
+	font-weight: bold;
+ 	color: #1a0dab;
+	text-transform: capitalize;	
+	}
+
+#resres[score^="500"] > a, #resres[score^="400"] > a {}
+#resres[score^="350"] > a {}
+
+.text>#goo {
+	padding: 10px;
+	background-color:rgba(
+255,255,255,0.8
+);
+	border-radius:25px;
+	}
+
+/*Cahiers de Botanique*/
+#couv {
+	float:right;
+	margin-top: 50px;
+	margin-right:auto;
+	width:71%;
+	}
+
+.vert {
+background-color: yellow;
+}
+
+#icon,#iconlarge {
+	font-family: 'Syncopate', cursive;
+	float: left; 
+	width: 21%;margin: 02px;
+	padding: 30px;
+	background-color: #1eb18a;
+	border-radius:10px;
+	color: white;
+	text-align:center;
+	font-size: 0.8em;
+	-webkit-box-shadow: inset 6px 0px 0px -1px rgba(
+30, 136, 142, 0.62
+);
+	-moz-box-shadow:    inset 6px 0px 0px -1px rgba(
+30, 136, 142, 0.62
+);
+	box-shadow:         inset 6px 0px 0px -1px rgba(
+30, 136, 142, 0.62
+);
+	}
+
+#iconlarge>form>input {
+width:80px;
+}
+
+#iconlarge {
+height: 90px;
+}
+
+#icon:hover {
+	background-color:#27384b;
+	cursor:pointer;
+	}
+
+#icon:active {
+background-color:white; color:#27384b;
+}
+
+#txtcol {
+	behavior: url(
+'http://www.crealscience.fr/JS/pie/PIE.htc'
+);
+        float:left;
+        width:80%;
+        column-count:3;
+        -moz-column-count:3; /* Firefox */
+        -webkit-column-count:3; /* Safari and Chrome */
+        font-size:0.7em;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom:solid black 1px;
+}
+
+#masque {
+	width:100%;
+	height: 100%;
+	background-color:rgba(
+0,0,0,0.7
+); 
+	position: fixed;
+	top: 0px;
+	left:0px;
+	z-index:4000;
+	display:none;
+}
+
+
+a.boutonHype {
+	float:left;
+	padding: 10px; 
+	margin: 10px;
+ 	color: green;
+	text-decoration: none; 
+	width: 105px;
+}
+
+xr ref a {
+text-decoration:none;
+}
+html>body>div>div>div>div>div>div>div>entry>sense>note>xr>ref>a{
+text-decoration:none;
+}
+
+#mesBoutons {
+	float:right;
+	margin-right: 13px;
+	cursor: pointer;
+}
+
+#mesBoutons:hover {
+	opacity:0.5;
+	transform: scale(
+1.2
+);
+}
+
+ed,authorbib {
+margin-left: 5px;
+}
+
+#stamp {
+	font-size: x-small;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	}
+
+#stampBas {
+	font-size:x-small;
+	bottom:10px;
+	}
+
