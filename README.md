@@ -13,3 +13,9 @@ Il était architecturé autour de la gestion d'une base de données XML et d'un 
 
 Le dictionnaire a bénéficié du développement d'une interface née dans le cadre du projet http://www.biblehistoriale.fr fianncé par la fondation Mellon. 
 
+# Détection Automatique de Faisceaux de Similarités Médiévaux (DFSM)
+
+La détection automatique de faisceaux de similarités reste un enjue sémantique essentiel: http://www.dfsm.fr
+
+Le dictionnaire dans sa forme actuelle est consultable sur http://www.crealscience.fr
+
