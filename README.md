@@ -11,7 +11,7 @@ Il avait pour ambition de permettre le développement d'une interface ergonomiqu
 
 Il était architecturé autour de la gestion d'une base de données XML et d'un outil WYSIWIG en ligne pour l'édition collaborative de données XML, une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur.
 
-Le dictionnaire a bénéficié du développement d'une interface née dans le cadre du projet http://www.biblehistoriale.fr fianncé par la fondation Mellon. 
+Le dictionnaire a bénéficié du développement d'une interface née dans le cadre du projet http://www.biblehistoriale.fr financé par la fondation Mellon. 
 
 # Détection Automatique de Faisceaux de Similarités Médiévaux (DFSM)
 
