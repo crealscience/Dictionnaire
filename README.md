@@ -1,11 +1,12 @@
 # Le site du dictionnaire Crealscience
-Les fichiers du dictionnaire Crealscience 
- - [projet ANR](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) :2010-2014
- - [projet I-def](http://www.i-def.fr/): 2015-2017
+
+Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac en coordination avec Joëlle Ducos pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
 
 # Qu'est-ce que c'était ?
 
-Le Dictionnaire de Français Scientifique Médiéval, élaboré dans le cadre du programme ANR CréaLScience, a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
+Le Dictionnaire Crealscience, élaboré dans le cadre du programme ANR CréaLScience, a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
+
+Né du dépouillement du Lexique du Vocabulaire Scientifique de Danièle Jacquard et Claude Thomasset en 2003, le dictionnaire a réuni des équipes en Allemagne et en France. 
 
 # Enjeu ergonomique et de représentation des lieux de données: Basex, XML, Humanités Numériques 
 
