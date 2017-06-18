@@ -2,7 +2,8 @@
 
 # Le site du dictionnaire Crealscience
 
-Les fichiers (PHP, css, dtd, Js, XQuery) développés par Xavier-Laurent Salvador et Fabrice Issac pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017 sont consultables et téléchargeables à l'adresse: [https://github.com/crealscience/description ](https://github.com/crealscience/description)
+Ce projet GIT a pour objet la mise à disposition des fichiers (PHP, css, dtd, Js, XQuery) développés par Xavier-Laurent Salvador et Fabrice Issac pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) pour les périodes 2010-2014 puis 2015-2017.
+Les fichiers sont consultables et téléchargeables à l'adresse: [https://github.com/crealscience/description ](https://github.com/crealscience/description)
 
 ![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
 
