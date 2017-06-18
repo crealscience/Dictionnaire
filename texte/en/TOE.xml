@@ -1,0 +1,9 @@
+
+<div class="texte">
+
+ <h2>Time Out Excedeed</h2>
+ <br/>
+ <p>Il semblerait que votre utilisation du site soit excessive. Si ce comportement assimilable à une consultation mécanique devait se poursuivre, vous seriez déconnecté. Nous regrettons cet incident. Merci pour votre Compréhension.<p>
+<INPUT type="button" value="Revenir à la consultation" onClick="window.history.back()">
+
+</div>

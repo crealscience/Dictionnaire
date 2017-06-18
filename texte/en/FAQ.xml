@@ -1,0 +1,16 @@
+<div class="texte">
+
+<h2><span class="texth2">Faq</span></h2> 
+<p>
+    <ul>
+	<li>How to find ?  <a href="#1">here</a></li>
+	<li>Comment interroger  ?  <a href="#2">here</a></li>
+	<li>Collaborer ?  <a href="#5">here</a></li>
+	<li>Contacts  ?  <a href="#6">here</a></li>
+	</ul>
+</p>
+<div id='break'>
+
+</div>
+</div>
+</div>

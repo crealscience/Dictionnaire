@@ -1,0 +1,27 @@
+<div class="texte">
+
+
+<p>Le Projet <b>I</b><sup>S</sup><b>I</b><b>L</b><sup>ex</sup> (Isilex - Easy Lexical Ressources creating shareware ) est une plateforme collaborative destinée à la création de ressources et de données lexicographiques en contexte pluridisciplinaire basé sur le logiciel populaire <a href='http://www.tinymce.com/'>TinyMCE</a> et exploitant la remarquable Base de données XML <a href='http://basex.org'>BaseX</a>.</p>
+
+<p>Vous pouvez le tester simplement <a href='http://www.crealscience.fr/ISILEX/testlecture.php?mot=TEST'><span style='color:red;'>ICI</span></a> en cliquant sur le bouton modifier.</p>
+<h2>Why?</h2>
+ <i></i>
+ <p>Une solution d'intégration de données lexicales basées sur XML développée au LDI par des chercheurs de l'Université. Isilex permet à des équipes en quelques clics de produire des ressources compatibles avec les normes récentes (TEI, W3C), modulables et adaptables sans formation préalable à XML. Une solution WYSIWYG d'actualité en cours d'expérimentation (<a href='http://www.crealscience.fr'>ici</a> et <a href='http://www.lexicographie.fr/Idioms'>là</a>).
+</p>
+<p><i>It's a new and easy solution for lexical ressources creations developed in LDI CNRS Laboratory by researchers from the University. Isilex makes available an easy way for your teams to produce TEI compliant XML Ressources and Databases without initial formation. A WYSIWYG solution integrated (<a href='http://www.crealscience.fr'>there</a> et <a href='http://www.lexicographie.fr/Idioms'>here</a>).</i></p>
+<div id='break'>
+<p>Une phase de projection:
+<ul>
+    <li>Vous définissez la structure du projet</li>
+    <li>Vos équipes, où qu'elles se trouvent, collaborent à la production de notices.</li>
+    <li>Vous modérez le projet.</li>
+    <li>Vous produisez aussi bien une plateforme consultable sur le Web qu'un ouvrage en pdf.</li>
+</ul>
+La modération peut être calibrée selon différents niveaux d'exploitation.
+
+<a href='http://www.crealscience.fr/ISILEX/testlecture.php?mot=ISILEX%20PAGE%20DE'><span style='color:red;'>TESTER ISILEX ICI</span></a> en cliquant ensuite sur le bouton modifier.
+ 
+
+</div>
+
+</div>

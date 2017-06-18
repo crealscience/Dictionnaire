@@ -1,0 +1,28 @@
+<? include "fonction.php";?>
+<div class="texte">
+
+<h2><span class="texth2">XQuery</span></h2>
+<form name="xq" action="index.php?langue=fr" method="Get">
+	<ul>
+		<ul>
+			<li class='button'><ul>Look for a Notion: </ul><ul>
+			<input name="xqnotion" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li class='button'><ul>Inspect a Domain: </ul><ul>
+			<input name="xqdomaine" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li class='button'><ul>Look for a Files Author:</ul><ul>
+			<input name="xqauteur" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li><input type="submit" class="button" value="Go"/></li>
+		</ul>		
+	</ul>
+
+</form>
+</div>

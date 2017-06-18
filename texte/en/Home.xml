@@ -1,0 +1,37 @@
+<div class="texte">
+<h2><span class="texth2">Home</span></h2>
+<p>The ambition of the <b>C</b><sup>réa</sup><b>L</b><b>S</b><sup>cience</sup> Project is to produce a dictionary of old French scientific vocabulary. </p>
+<p>Another ambition is the production of a lexicographic Content Management System (CMS): <a href='http://www.isilex.fr'>Isilex</a></p>
+<p>It is linked to linguistic analysis based on a generated representation of the collected information thanks to an innovative computing tool. It aims to create a specific collaborative framework of lexicographical resources through the collaboration of the University Paris-Sorbonne (EA STIH) and the CNRS LDI laboratory.</p>
+<ul>
+<li>You can browse the dictionary alphabetically or by typing letters.</li>
+<li>To try the collaborative framework ISILEX for the edition of data and lexicographical resources, click <a href='http://www.isilex.fr'><span style='color:red;'>HERE</span></a>.</li>
+</ul>
+<div id='break'>
+<p>This program, in collaboration with the AND and the DMF, focuses on medieval French seen as a nexus, to examine the birth of a terminology, which leads to a meta-reflexion on dictionaries in their relations to texts and as a means to reveal the dynamics between specialized areas of knowledge. This program combines other related questions: what is the role of predetermined fields of knowledge, what is the relationship between a word and a concept and how does it evolve, what are the syntactic and semantic relationships between lexemes? The goal of this project is to improve our knowledge of old French as a specialized language, to study the process of creation of specialized words and to create efficient tools for a dynamic representation of lexicographical data. </p>
+
+<h2><span class="texth2">Context</span></h2>
+<p>R. Kocourek’s research on technical and scientific language in French (La langue française de la technique et de la science, Wiesbaden 1982 ; 2e éd.1991) as well as works devoted to terminology (P. Lerat 1995 ; G. Otman 1996 ; L.Depecker 2005) helped determine specialised meanings in use in the French language. However these breakthroughs deal mainly with early modern, modern or contemporary French: the existing tools (Frantext, DMF, TLF) don’t distinguish between common or scientific meanings; they don’t allow us to determine the specificity of a vocabulary, its evolution or its longevity. The genesis of French as a language of science before the modern period, and especially during the medieval period, eludes us due to a lack of knowledge of old French texts, and the difficulty of analyzing, from a comprehensive point of view, the birth of a specialized terminology in vernacular, which is one of the main questions at stake for this period when French becomes a language of science and knowledge.
+</p>
+<h2><span class="texth2">What’s at stake</span></h2>
+<p><b>C</b><sup>réa</sup><b>L</b><b>S</b><sup>cience</sup> is a pluridisciplinary project gathering researchers in the fields of history of science, linguistics, philology, computer science, information and communication theorists. Its aim is to answer the previously described need through the association of studies related to the genesis of scientific French between the 13th and the 15th century, the creation of a digital dictionary complete with new technological tools (development of a markup language and software programs) in order to enable a scientific analysis of the birth of a terminology in medieval French. The chosen chronological period (12th-15th centuries) seems fundamental, as it is the time at which French becomes a medium for scientific expression: the French language acquires a new status akin to Latin, at a time when scientific concepts evolve considerably under the influence of Aristotle’s philosophy and of the works of arab and greek commentators and scholars.
+</p>
+<h2><span class="texth2">Goals and objectives</span></h2>
+<p>The CréaLScience project’s aims are: </p>
+<p>1/ a better knowledge of the genesis of the French language and its use in specialised areas. This would involve a hitherto neglected reconstruction of its processes from a global and comprehensive perspective, by displaying patterns of word creation and evolution in order to improve our knowledge of the scientific use of words in old French, of their creation and of the processes of stabilisation or semantic changes that they may have undergone. </p>
+<p>2/ a better knowledge of old French scientific texts, especially those dealing with astronomy. </p>
+<p>3/ the development of the dictionarics thanks to the elaboration of a tool that could not only show the stabilised part of the language, but also underline the semantic relationships (of synonymy, hypernymy or meronymy) from an evolutionary view point.</p>
+<p>These scientific goals are forwarded by technical advances : </p>
+<p>1/ the creation of technical tools (development of a markup language, software programs).</p>
+<p>2/ the production of a pattern for entries derived from those of the DFSM.</p>
+<h2><span class="texth2">Accomplishments</span></h2>
+<p>Several objects should be produced : </p>
+<p>1/ Publications:</p>
+<p>A Dictionary of Scientific Medieval French (Le Dictionnaire du Français Scientifique Médiéval, DFSM) which will consist of a global inventory of scientific vocabulary, complete with new browsing tools unused in previous dictionaries. This will be the first production of our multidisciplinary project.
+Online or paper publications, especially about medieval astronomy, should improve our knowledge of hitherto unpublished texts despite their importance in the history of French as a scientific language. This should lead to new inventories of scientific texts including new editions, which should also shed a new light on fundamental research about the genesis of specialized languages in French during the Middle Ages.</p>
+<p>2/ A website which hosts the DFSM database – the second production of our multidisciplinary methodology. </p>
+<p>3/ A digital atlas : open source software and creative commons resources. </p>
+</div>
+</div>
+
+
