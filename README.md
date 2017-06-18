@@ -4,7 +4,26 @@ Git maintenu et géré par Xavier-Laurent Salvador
 
 # Le site du dictionnaire Crealscience
 
-Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac en partenariat avec Joëlle Ducos, Gérard Petit, Michèle Goyens et Fleur Vigneron pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
+Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
+
+Co-Gestion financière des 190 000 € du projet associant deux équipes universitaires pour la période 2010-2014 puis pour la période 2015-2017 :
+
+- Joëlle Ducos (STIH, Paris IV): 60%
+- Xavier-Laurent Salvador (LDI, Paris 13): 40%
+
+## Direction et Responsabilité de la base de données:
+Xavier-Laurent Salvador 
+## Collaborateur pour la base de données:
+Fabrice Issac 
+
+## Direction en matière de lexicographie, de philologie et d'histoire des sciences:
+Joëlle Ducos 
+## Collaborateur lexicographique:
+Gérard Petit 
+## Coordinatrice pour la botanique:
+Fleur Vigneron 
+## Coordination pour la Médecine
+Michèle Goyens 
 
 ![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
 
