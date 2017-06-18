@@ -1,5 +1,7 @@
-# Le site du dictionnaire Crealscience (http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007)
-Les fichiers du dictionnaire Crealscience (2009-2017)
+# Le site du dictionnaire Crealscience
+Les fichiers du dictionnaire Crealscience 
+ - http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007:2010-2014
+ - collaboration non définie: 2015-2017
 
 # Qu'est-ce que c'était ?
 
