@@ -1,7 +1,7 @@
 # Le site du dictionnaire Crealscience
 Les fichiers du dictionnaire Crealscience 
  - [projet ANR](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) :2010-2014
- - collaboration non définie: 2015-2017
+ - [projet I-def] (http://www.i-def.fr): 2015-2017
 
 # Qu'est-ce que c'était ?
 
