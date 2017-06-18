@@ -17,7 +17,7 @@ Il était architecturé autour d'un outil WYSIWYG en ligne pour l'édition colla
 
 ![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
 
-# Description des Responsabilités du Projet
+# Description des Responsabilités du Projet 2010-2017
 
 Co-Gestion financière des 190 000 € du projet associant deux équipes universitaires pour la période 2010-2014 puis pour la période 2015-2017 :
 
