@@ -3,7 +3,7 @@
 
 # La feuille
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/crealscience/webSite/blob/master/design/feuillure.png?raw=true)
 
 # La Pub
 
@@ -11,7 +11,7 @@
 
 # La consultation
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/crealscience/webSite/blob/master/design/consult.png?raw=true)
 
 # Les News
 
@@ -19,4 +19,4 @@
 
 # L'alphabet animé
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/crealscience/webSite/blob/master/design/alphabet.png?raw=true)
