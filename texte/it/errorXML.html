@@ -1,0 +1,129 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" title="base" media="screen" href="css.css"/>
+	</head>
+	<body>
+	<div id="titre">
+		<b>Compte-rendu d'activité du cours de M2 - XML/XQUERY</b>
+		<p>Gestion par groupes de la lettre F de l'entreprise de lexicographie CREALSCIENCE</p>
+		
+		</div>
+		
+		<div id="contenu">
+	
+		<h2><li>Erreurs récurrentes rapportées et la manière de les corriger</li></h2>	
+	
+
+
+<p> <b class= "erreur"> <u>ERREUR :</u> 2: element sense: validity error: Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (def note CDATA cit)</br> </b>
+<br><b><u>SOLUTION :</u></b> Attention à ces cas, il suffit d’ouvrir sous xml pour les valider. Ouverture sous XML, puis enregistrer à nouveau la modification. L’erreur a disparu car l’éditeur xml l’a corrigée seul. (souvent une mise en forme rectifiée automatiquement). Il faut donc « mettre à jour » le fichier xml. Le texte qui se baladait est automatiquement supprimé.</br> 
+<br><i class="com">Commentaire : Cette solution ne marche pas toujours mais cela vaut le coup d'essayer avant de commencer les corrections!</i>
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 1: element sense: validity error : Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (def note CDATA bibl CDATA)</br></b>
+<br><b><u>SOLUTION :</u></b> Il suffit d'ajouter la balise &lt;cit&gt; pour encadrer la balise &lt;quote&gt; et celle &lt;bibl&gt;.</br>
+<br><i class="com">Commentaire : Rappel de la structure de fiche</i>
+<p>&lt;sense mod ‘…’ med ‘…’&gt;
+<br>&lt;def&gt; &lt;/def&gt;
+<br>&lt;cit&gt;
+<br>&lt;quote&gt;&lt;/quote&gt;
+<br>&lt;bibl&gt;&lt;/bibl&gt;
+<br>&lt;/cit&gt; 
+<br>&lt;/sense&gt;
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element sense: validity error: Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (def note xr xr cit)</br></b>
+<br><b><u>SOLUTION :</u></b> Déplacement de la balise &lt;note&gt; qui doit encadrer les balises &lt;xr&gt;
+<br>_______________________________________________________</p>
+
+<P> <b class= "erreur"><u>ERREUR :</u> 2: element sense: validity error: Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (cit)</br></b>
+<br><b><u>SOLUTION :</u></b> Il manque le bloc :&lt;def&gt;&lt;/def&gt;,  le rajouter après la balise ouvrante &lt;sense&gt;
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element sense: validity error: Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (CDATA def note CDATA cit)</br></b>
+<br><b><u>SOLUTION :</u></b> Replacer le texte qui se balade dans la balise la plus proche</br>
+<br><i class="com">Commentaire : Ici nous avons remarqué que les symboles peuvent être mal placés et sont comptés comme du texte et donc à replacer entre balises. </i>
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element sense: validity error: Value "AUTRE" for attribute mod of sense is not among the enumerated set</br></b>
+<br><b><u>SOLUTION :</u></b> Erreur d’orthographe, ajout du point à la fin du nom de l’attribut ; le nom de l’attribut est « AUTRE. »
+<br>_______________________________________________________</p>
+
+<p> <bold class= "erreur"><u>ERREUR :</u> 6: element author: validity error: Element author was declared #PCDATA but contains non text nodes</br></bold>
+<br><b><u>SOLUTION :</u></b> Déplacement de la balise fermante &lt;/author&gt; à la bonne place.</br>
+<br><i class="com">Commentaire : La balise &lt;author&gt; ne devait contenir que du texte (selon la DTD) et elle contenait d'autres balises.</i>
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element gram: validity error: Element gram does not carry attribute type</br></b>
+<br><b><u>SOLUTION :</u></b> Ajout de l’attribut pos dans la balise gram: = ‘pos’ (gram type= ‘pos’)</br>
+<br><i class="com">Commentaire : Selon la DTD, l’élément gram doit contenir pos (partie de phrase) ou gen (genre), or aucun attribut n’était indiqué.</i> 
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 1: element form: validity error: Element form content does not follow the DTD, expecting (orth+ , date? , valid? , auteur?), got (orth date valid auteur ask)
+<br>1: element ask: validity error: No declaration for element ask</br></b>
+<br><b><u>SOLUTION :</u></b> La balise &lt;ask&gt; n’existe pas dans la DTD. Il suffit de la supprimer.
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u>1: element form: validity error: Element form content does not follow the DTD, expecting (orth+ , date? , valid? , auteur?), got (orth date valid auteur ask)
+<br>1: element ask: validity error: No declaration for element ask
+<br>1: element author: validity error: Element author was declared #PCDATA but contains non text nodes</br></b>
+<br><b><u>SOLUTION :</u></b></br> 1) Supprimer la ligne &lt;ask&gt;&lt;/ask&gt;
+<br> 2) Pour le #PCDATA : l’élément &lt;author&gt; n’a pas été fermé au bon endroit. Il suffit de fermer la balise &lt;author&gt;.
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"> <u>ERREUR :</u> 1: element quote: validity error: Element mark2 is not declared in quote list of possible children
+<br>1: element mark2: validity error: No declaration for element mark2</br></b>
+<br><b><u>SOLUTION :</u></b> Supprimer les balises &lt;mark2&gt;&lt;/mark2&gt; car elles n'existent pas dans la DTD.
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element quote: validity error: Element venir is not declared in quote list of possible children
+<br>4: element venir: validity error: No declaration for element venir
+<br>4: element quote: validity error: Element ou is not declared in quote list of possible children
+<br>6: element ou: validity error: No declaration for element ou</br></b>
+<br><b><u>SOLUTION :</u></b> Les balises &lt;ou&gt; et &lt;venir&gt; ne sont pas déclarées dans la DTD, il faut donc supprimer les deux balises.
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 1: element cit: validity error: Element cit content does not follow the DTD, expecting (quote , bibl)*, got (bibl quote bibl quote bibl)</br></b>
+<br><b><u>SOLUTION :</u></b> Il faut encadrer les balises &lt;quote&gt; &lt;/quote&gt; et &lt;bibl&gt;&lt;/bibl&gt; par &lt;cit&gt;&lt;/cit&gt; (afin que la DTD soit respectée).
+<br>_______________________________________________________
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element xr: validity error: Element xr content does not follow the DTD, expecting (xr | ref | gloss)+, got (gloss cit sense sense)
+<br>2: element gloss: validity error: Element gloss was declared #PCDATA but contains non text nodes</br></b>
+<br><b><u>SOLUTION :</u></b></br> 1) Il faut fermer &lt;note&gt; avant l’ouverture de &lt;cit&gt; et fermer la balise &lt;gloss&gt; plus tôt.
+<br> 2) Il faut aussi fermer la balise &lt;sense&gt; avant l’ouverture du prochain &lt;sense&gt;.
+<br>_______________________________________________________</p>
+
+<P> <b class= "erreur"><u>ERREUR :</u> 6: element bibl: validity error: Element cit is not declared in bibl list of possible children</br></b>
+<br><b><u>SOLUTION :</u></b> Il faut fermer la balise &lt;bibl&gt; avant de fermer &lt;cit&gt;.
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 1: element bibl: validity error: Element mentioned is not declared in bibl list of possible children
+<br>1: element mentioned: validity error: Element mentioned was declared #PCDATA but contains non text nodes</br></b>
+<br><b><u>SOLUTION :</u></b> Il faut fermer la balise &lt;bibl&gt; avant d’ouvrir celle &lt;mentioned&gt;
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 6: element bibl: validity error : Element cit is not declared in bibl list of possible children
+<br>14: element sense: validity error : Element sense content does not follow the DTD, expecting (usg* , def , note* , cit*), got (usg def note CDATA cit)</br></b>
+<br><b><u>SOLUTION :</u></b></br> 1) Il faut fermer la balise &lt;bibl&gt; avant d’ouvrir la balise &lt;cit&gt;.
+<br> 2) Il faut replacer le texte qui se balade dans la balise la plus proche. 
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 2: element etym: validity error: Element etym content does not follow the DTD, expecting (bibl , mentioned?), got (bibl mentioned CDATA)
+<br>4: element quote: validity error: Element mark2 is not declared in quote list of possible children
+<br>6: element mark2: validity error: No declaration for element mark2</br></b>
+<br><b><u>SOLUTION :</u></b></br> 1) Il faut supprimer les balises ouvrantes et fermantes &lt;mark2&gt;&lt;/mark2&gt;
+<br> 2) Il y a du texte qui se ballade juste après la balise fermante &lt;/mentionned&gt;, le replacer entre &lt;mentionned&gt; et &lt;/mentionned&gt;
+<br>_______________________________________________________</p>
+
+<p> <b class= "erreur"><u>ERREUR :</u> 30: element nonit: validity error: Element sense is not declared in nonit list of possible children</br></b>
+<br><b><u>SOLUTION :</u></b> : La balise &lt;nonit&gt; n’est pas fermée et les balises suivantes non plus. Il faut donc fermer les balises : &lt;/nonit, &lt;/bibl>, &lt;/cit> et &lt;/sense> (dont les conflits ont été détectés ultérieurement).
+<br>_______________________________________________________</p>
+
+		
+		</div>
+
+	
+	<footer> Université de Cergy-Pontoise </footer>		
+	</body>
+</html>

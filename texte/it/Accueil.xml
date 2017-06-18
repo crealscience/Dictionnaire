@@ -1,0 +1,79 @@
+<div class="texte">
+<p>
+   <form id="transidef" action="http://www.crealscience.fr/idefx.php" method="post">
+    <input class="bg_form ok" id="idefx" type="text" name="idefx"  />
+         <img src="http://www.i-def.fr/img/loupe.png" class="boutonR" onclick="document.forms['rech'].submit();" /><br/>
+  	<label id="lab">Si possono usare le RegExp (.*)</label>
+	        <input type="hidden" id="countres" name="countres" value="" />
+                            <input type="hidden" id="motprems" name="motprems" value="" />
+		<input type="hidden" id="navig" name="navig" value="" />
+  </form>
+</p>
+<h2><span class="texth2">Home</span></h2>
+<p>
+L'ambizione del progetto <b>C</b><sup>réa</sup><b>L</b><b>S</b><sup>cience</sup> è realizzare un dizionario del lessico scientifico del francese medioevale. Il progetto è basato su un'analisi linguistica della rappresentazione delle informazioni e su un modello informatico innovativo. Esso mira, inoltre, alla creazione di una piattaforma di risorse lessicografiche, ISILEX, frutto dalla collaborazione delle équipes di ricerca EA STIH dell'Università Paris IV.
+<ul>
+<li>
+Potete consultare il dizionario attivando la navigazione per alfabeto o inserendo semplicemente una lettera. </li>
+<li>Potete trovare la piattaforma collaborativa di edizione di dati et di risorse lessicografiche ISILEX <a href='http://www.isilex.fr'><span style='color:red;'>Qui</span></a>.</li>
+
+</ul>
+</p>
+
+<div id='break'>
+<br/>
+<p>Progetto CréaLScience ha l’obiettivo di ricostruire il lessico scientifico del francese medioevale, si associa a un'analisi linguistica della rappresentazione delle informazioni e si appoggia su un modello informatico innovativo.</p>
+
+<p>Il programma di ricerca, in partenariato con l'A N D e il D M F, è incentrato sul francese medioevale, luogo cruciale di una genesi terminologica, e consente una riflessione sulla pratica lessicografica come mezzo per mettere in evidenza la dinamica dei saperi e il rapporto tra testi e dizionario. Questa riflessione è associata a una serie di interrogativi: sul ruolo della determinazione dei campi dei saperi, sul rapporto evolutivo tra termine e concetto, sulle relazioni sintattico-semantiche tra i lessemi. Il progetto mira a una migliore comprensione delle prime realizzazioni del francese come lingua di specialità, a una riflessione sui processi di creazione terminologica, e all'elaborazione di strumenti pertinenti per una rappresentazione dinamica del lessico.        </p>
+
+<h2>Contesto</h2>
+<p>
+Il lavori di R. Kocourek sulla lingua francese della tecnica e della scienza (Wiesbaden 1982 ; 2e éd.1991) e lo sviluppo delle ricerche sulla terminologia (P. Lerat 1995 ; G. Otman 1996 ; L.Depecker 2005) hanno contribuito a conoscere gli usi specializzati del francese. Tuttavia, questi contributi vertono essenzialmente su uno stato contemporaneo o moderno della lingua: gli strumenti esistenti (Frantext, DMF, TLF), mescolando gli usi dotti a quelli correnti, non consentono di distinguere né la specificità del lessico, né la sua permanenza o la sua evoluzione. La genesi del francese come lingua scientifica prima del periodo moderno – in particolare all’epoca medioevale – sfugge così all’analisi a causa di una scarsa conoscenza dei testi di questo periodo e di una difficoltà a concepire globalmente la creazione di una terminologia specifica in lingua vernacolare, quando è proprio nella lingua vernacolare che il francese si trasforma in lingua dei saperi.      
+</p>
+
+<h2>La posta in gioco</h2>
+<p>
+Il presente progetto pluridisciplinare, che riunisce storici della scienza, filosofi, informatici e specialisti dell’informazione e della comunicazione, si propone di colmare questa lacuna associando una ricerca sulle modalità della creazione del francese scientifico (secoli XII-XV) all’elaborazione di un dizionario elettronico e di strumenti tecnologici (sistemi di etichettaggio, programmi) che permettono uno studio scientifico della creazione terminologica in francese medioevale. Il periodo medioevale selezionato (XII-XV secolo), dove si formano i luoghi di produzione del sapere che fanno appello al francese, è centrale: il francese diviene potenzialmente scientifico, o almeno lingua dei saperi accanto al latino, mentre si sviluppano concetti scientifici grazie al contatto del pensiero aristotelico e dei commentatori e sapienti arabi e greci.   
+</p>
+
+<h2>Programma</h2>
+<p>
+Il progetto CREALSCIENCE, che riunisce nell’ambito della lessicografia, della linguistica medioevale e della storia delle scienze, deve consentire :
+<p>
+	<ul>
+		<li>
+1/ Una conoscenza della genesi del francese e dei suoi usi specializzati in una prospettiva di ricostruzione pqnoramica, fino ad ora assente nei lavori di medievistica et di terminologia francese o generale. Si tratta di mettere in evidenza i modelli genetici ed evolutivi e di delimitare il più chiaramente possibile gli usi scientifici del francese medioevale e il processo di creazione, di stabilizzazione e di modificazione semantica.     
+</li>
+<li>
+2/ Una conoscenza dei testi scientifici medioevali in francese e specialmente in astronomia   
+</li>
+<li>
+3/ Un contributo nella pratica lessicografica, grazie all’elaborazione di uno strumento que permette di mettere in evidenza non soltanto la parte stabile della lingua, ma anche le relazioni semantiche (sinonimia, iperonimia, meronimia) concepite in un’ottica evolutiva. 
+</li>
+</ul>
+<p>
+A questi obiettivi scientifici, s’aggiungono dei contributo tecnici. 
+	1/costruzione di strumenti tecnologici (modalità di etichettaggio, programmi)
+2/Produzione di schemi di articoli à partire dall’elaborazione del dizionario scientifico Medievale (DFSM)
+</p>
+<h2>Realizzazioni</h2>
+<p>
+Il progetto produrrà: 
+<p>
+	1/Pubblicazioni
+
+	Il dizionario del Francese Scientifico Medievale (DFSM) presenterà un inventario e un panorama del vocabolario scientifico, grazie alle nuove funzionalità rispetto ai dizionari esistenti. Questo sarà il primo risultato della pluridisciplinarità del progetto.    
+
+	Un insieme di pubblicazioni on line o in versione cartacea, nell’ambito astronomico, permetterà di far conoscere dei testi ancora inediti e tuttavia fondamentali per la storia del francese come lingua dotta, e di rendere conto della ricerca di base sulla genesi di una lingua di specialità del Medioevo   	
+</p>
+<p>
+2/ Un sito web : base di dati DFSM, il secondo prodotto della pluridisciplinarità.
+</p>
+<p>
+3/ Un atalnte informatico: un software libero di risorse secondo la licenza creative common
+. 
+</p>
+
+</div>
+</div>
+
