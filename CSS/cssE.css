@@ -1,0 +1,275 @@
+/************************************************/
+/* DTD du dictionnaire Crealscience ou DFSM     */
+/* par Xavier-Laurent Salvador et Fabrice ISSAC */
+/* janvier 2012-2017  					              	*/
+/************************************************/
+/* Le formulaire*/
+#formmot{
+   
+	text-align:center;
+	margin-bottom:10px;
+}
+#ssmenu1 {
+	display: none;
+}
+#ssmenu2{
+	display: none;
+}#ssmenu3{
+	display: none;
+}
+#login{
+	display: none;
+}
+#login22{
+    background:white;
+    left:50%;
+    top:50%;
+    display:none;
+    z-index:100;
+}
+#loglog{
+	font-size:xx-small;
+    float:left;
+    padding-right:100px; 
+    color:white;
+    padding-left:20px;
+    z-index:100;
+}
+#requeteForm{
+	font: 85% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", "Verdana", "Helvetica", "sans-serif";
+	font-size:x-small;	
+	position:absolute;
+	top:140px;
+	left:115px;
+	background:#FFF url(
+    "./../images/bg.gif"
+  ) repeat;
+	border:2px solid white;
+	margin: 0px 20px 0px 20px;
+	display: none;
+	width:250px;
+	border: 3px solid #F4A460;
+	padding-right:5px; 
+}
+#requeteFormPerl{
+	font: 85% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", "Verdana", "Helvetica", "sans-serif";
+	font-size:x-small;	
+	position:absolute;
+	top:140px;
+	left:115px;
+	background:#FFF url(
+    "./../images/bg.gif"
+  ) repeat;
+	border:2px solid white;
+	margin: 0px 20px 0px 20px;
+	display: none;
+	width:250px;
+	border: 3px solid #F4A460;
+	padding-right:5px; 
+}
+#requeteForm li,ul{
+	list-style:none;
+}
+.droite{
+  float:right;
+}
+div#requetecomplexForm{
+	font: 85% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", "Verdana", "Helvetica", "sans-serif";
+	font-size:x-small;	
+	position:absolute;
+	padding-left:10px;
+	padding-right:10px;
+	top:90px;
+	left:115px;
+	background:#FFF url(
+    "./../images/bg.gif"
+  ) repeat;
+	border:2px solid white;
+	margin: 0px 20px 0px 20px;
+	display: none;
+	width:350px;
+	border: 3px solid #F4A460;
+}
+#requetecomplexForm li,ul{
+	list-style:none;
+	}
+#formhaut{
+  	
+	background:transparent;
+	margin-top:20px;
+	text-align:center;
+	float:left;
+}
+.formdroite{
+	width:35%;
+	padding-left:30px;
+	float:left;
+	margin-top:1px;
+	height:1px;
+}
+.formdroite2{
+	width:25%;
+	float:right;
+	margin-top:9px;
+	height:1px;
+}
+#cadenas{
+	position:absolute;
+	right:0px;
+	z-index:100;
+	display:block;
+	width:200px;	
+	padding-right:5px;
+	font-size:xx-small;
+	color:white;
+}	
+#Messagesmail{
+	font: 85% "Verdana", "Helvetica", "sans-serif";
+	font-size:small;	
+	position:absolute;
+	padding-left:10px;
+	padding-right:10px;
+	top:50%;
+	left:50%;
+	background:#FFF url(
+    "./../images/bg.gif"
+  ) repeat;
+	border:2px solid white;
+	margin: 0px 20px 0px 20px;	
+	border: 3px solid #F4A460;
+	z-index:10;	      
+}
+.bg_form{
+	font-family: 'Eagle Lake', cursive;
+    font-size:0.8em;
+	margin-left:0px;
+	padding-left:2px;
+	/*background:#FFF url(
+    "./../images/fonboite.png"
+  ) repeat;*/
+	background-color:transparent;
+	height:25px;
+	color:#8E5543;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+	behavior: url(
+    '/PIE.htc'
+  );
+	width:80px;
+	text-align:center;
+	display:none;
+}
+
+.ok {
+  display:inline;
+}
+
+.bouton_chercher{
+	background:none; 
+	border:none; 
+}
+tabbdd
+{
+color:red; 
+}
+/* Les boutons de formulaire */
+.submitmodifvert{
+	color:white; 
+	background: transparent url(
+    './../images/pillhover.png'
+  ) no-repeat left top;
+	font-size:xx-small;
+	cursor:pointer;
+	border:none;
+	width:75px;
+	height:30px;
+	padding-right: 8px;
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-top: 4px;
+}
+.submitmodif{
+	color:white; 
+	background: transparent url(
+    './../images/pillactive.png'
+  ) no-repeat left top;
+	font-size:xx-small;
+	cursor:pointer;
+	border:none;
+	width:75px;
+	height:30px;
+	padding-right: 8px;
+	padding-bottom: 15px;
+	padding-left: 8px;
+	padding-top: 4px;
+}
+/*Tableaux formulaire xquery	*/
+* .auto-layout
+{
+	table-layout: auto;
+	float : left;
+	margin-left : 5px;
+}
+* .sized
+{
+	float : left;
+	margin-left : 5px;
+	background: transparent;
+	color: white;
+	width: 150px;
+}
+.texteentree2
+{
+	background: #F3F5E7;
+	color: black;
+	font-size: small;
+}
+select{
+   width: 240px;
+   height: 29px;
+   overflow: hidden;
+   background: url(
+    './../images/new_arrow.png'
+  ) no-repeat right #ddd;
+}
+input[type="radio"]{
+	-khtml-appearance: none;
+	-moz-appearance: none;
+	background: url(
+    '../images/radioandcheckboxsprite.gif'
+  ) no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+input[type="radio"]{
+	background-position-x: right;
+}
+input[type="radio"]:checked{
+	background-position-y: -20px;
+}
+.button {
+	 border: 1px solid #006;
+    background: #9cf;
+    width: 60px;
+    font-size:x-small;
+    color:#2D105B;
+}
+.buttonhelp {
+	 border: 1px solid #006;
+    background: #A52A2A;
+    width: 60px;
+    font-size:x-small;
+    color:#FFFFFF;
+}
+.buttonvalid {
+	 border: 1px solid #006;
+    background: #A52A2A;
+    width: 160px;
+    font-size:small;
+    color:#FFFFFF;
+}
+#boutonvalider{
+	display:none;
+}
