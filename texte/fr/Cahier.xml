@@ -1,0 +1,20 @@
+<div class="texte">
+<div id="couv">
+<div id="iconlarge" class="large quiet">   <form id="" action="http://www.crealscience.fr/idefx.php" method="post">
+        <label>Chercher: </label>
+    <input class="" id="efx" type="text" name="idefx"  />
+	<input type="hidden" name="countres" value="1">
+        <input type="hidden" id="countres" name="countres" value="" />
+                            <input type="hidden" id="motprems" name="motprems" value="" />
+        <input type="hidden" id="navig" name="navig" value="" />
+  </form>
+</div>
+<a href="http://www.crealscience.fr/Cahier/fr/agronomie"><div id="icon" class="">Agronomie</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/Nature"><div id="icon" class="">Nature</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/medecine"><div id="icon" class="">Médecine</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/astronomie"><div id="icon" class="">Astronomie</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/mathematique"><div id="icon" class="">Mathématique</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/geometrie"><div id="icon" class="">Géométrie</div></a>
+<a href="http://www.crealscience.fr/Cahier/fr/zool"><div id="icon" class="">zoologie</div></a>
+</div>
+</div>

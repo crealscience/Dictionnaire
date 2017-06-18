@@ -1,0 +1,28 @@
+<? include "fonction.php";?>
+<div class="texte">
+
+<h2><span class="texth2">Query</span></h2>
+<form name="xq" action="index.php?langue=fr" method="Get">
+	<ul>
+		<ul>
+			<li class='button'>Chercher une Notion: <ul>
+			<input name="xqnotion" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li class='button'>Chercher un Domaine: <ul>
+			<input name="xqdomaine" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li class='button'>Chercher l'Auteur de Fiches:<ul>
+			<input name="xqauteur" type="text"/></ul></li>
+		</ul>
+		<br/>
+		<ul>
+			<li><input type="submit" class="button" value="Go"/></li>
+		</ul>		
+	</ul>
+
+</form>
+</div>

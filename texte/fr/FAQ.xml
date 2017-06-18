@@ -1,0 +1,22 @@
+<div class="texte">
+<h2><span class="texth2">Faq</span></h2>
+<ul>
+<li>Comment consulter ? <a href="#1">ici</a></li>
+<li>Comment interroger ? <a href="#2">ici</a></li>
+<li>Collaborer ? <a href="#5">ici</a></li>
+<li>Contacts ? <a href="#6">ici</a></li>
+</ul>
+<div id="break">
+<h2><span class="texth2">Comment consulter le dictionnaire</span></h2>
+<a id="1"></a> L'interface est construite autour de Basex. Lorsque vous tapez une lettre, ou un mot, une requ&ecirc;ste est construite &agrave; chaque frappe du clavier et est envoy&eacute;e au serveur qui r&eacute;pond aussit&ocirc;t. La recherche est large jusqu'&agrave; ce que l'on ait restreint suffisamment le nombre de possibilit&eacute;s pour qu'il n'y ait plus aucune ambigu&iuml;t&eacute;.
+<div id="imagebig">Alors le serveur renvoie la d&eacute;finition recherch&eacute;e, en s'adaptant selon que vous &ecirc;tes auteur ou lecteur de la d&eacute;finition. Dans tous les cas, la version r&eacute;cente appara&icirc;t toujours mais selon que vous &ecirc;tes en cours de r&eacute;daction ou non, vous verrez appara&icirc;tre soit la derni&egrave;re version valid&eacute;e soit la version en cours de travail.</div>
+<h2><span class="texth2">Comment l'interroger </span></h2>
+<a id="2"></a> L'interface est explicite. LA force de l'ensemble r&eacute;side dans la construction d'une ressource enti&egrave;rement tourn&eacute;e vers XML et XQUERY ce qui permet d'int&eacute;grer des recherches fond&eacute;es sur des variations morphologiques ('stemmings'), approximative ('fuzzy') ou int&eacute;grant les expressions r&eacute;guli&egrave;res.&nbsp;
+<p>Et voil&agrave;:</p>
+<h2><span class="texth2">Comment collaborer</span></h2>
+<a id="5"></a> Pour l'instant, il faut int&eacute;grer l'&eacute;quipe de recherche. Mais l'ouverture se fera prochainement et il sera possible de collaborer notamment &agrave; la r&eacute;daction des notes encyclop&eacute;diques.
+<h2><span class="texth2">Comment nous contacter</span></h2>
+<a href="https://plus.google.com/115962454725173392900/posts">Google+</a>
+<a id="6"></a> mail:</div>
+
+</div>

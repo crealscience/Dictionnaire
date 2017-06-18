@@ -1,0 +1,47 @@
+<div class="texte">
+<h2><span class="texth2">Accueil</span></h2>
+<p>Le Projet <b>C</b><sup>réa</sup><b>L</b><b>S</b><sup>cience</sup> a pour but de produire un dictionnaire du lexique scientifique en français médiéval.</p>
+ <p>Cette réalisation est associée à une analyse linguistique de représentation des informations et s'appuie sur un modèle informatique innovant. Il vise enfin à la création <i>ad hoc</i> d'une plateforme collaborative de ressources lexicographiques résultant de la collaboration des équipes de l'<a href='http://www.stih.paris-sorbonne.fr/'>EA STIH</a> de l'Université Paris IV et du laboratoire <a href='http://www-ldi.univ-paris13.fr'>CNRS LDI</a>.</p></p>
+
+<div id='break'>
+
+
+Le programme, en partenariat avec l'A N D et le D M F, centré sur le français médiéval conçu comme lieu d’observation nodal d'une genèse terminologique, permet une réflexion sur la dictionnairique comme moyen de mettre en évidence une dynamique de savoirs et comme rapport des textes au dictionnaire. Il la combine à une série de questionnements : rôle de la détermination des champs de savoirs, rapport évolutif entre terme et concept, relations syntaxico-sémantiques entre lexèmes. Il doit aboutir à une meilleure connaissance des premières réalisations du français comme langue de spécialités, à une réflexion sur les processus de création terminologique et à l’élaboration d’outils pertinents pour une représentation dynamique du lexique.</p> 
+
+<br/>
+<h2><span class="texth2">Contexte</span></h2> 
+<p>
+Les travaux de R. Kocourek sur la langue française de la technique et de la science (Wiesbaden 1982 ; 2e éd.1991) et le développement des recherches sur la terminologie (P. Lerat 1995 ; G. Otman 1996 ; L.Depecker 2005) ont aidé à connaître les usages spécialisés de la langue française. Toutefois ces avancées portent essentiellement sur un état contemporain ou moderne du français : les outils existants (Frantext, DMF, TLF), mêlant les usages savants aux usages courants, ne permettent pas en effet de distinguer ni la spécificité du lexique, ni sa permanence ou son évolution. La genèse du français comme langue scientifique avant la période moderne - en particulier à l’époque médiévale- échappe ainsi à l’analyse en raison d’une méconnaissance des textes français de cette période et d’une difficulté à appréhender de manière globale la création d’une terminologie spécifique en langue vernaculaire, alors qu’elle est un enjeu majeur du français devenant langue de savoirs.</p>
+<h2><span class="texth2">Enjeux</span></h2> 
+<p>
+ Le présent projet pluridisciplinaire, qui réunit historiens des sciences, linguistes, philologues, informaticiens et spécialistes de l’information et de la communication, vise à combler cette lacune en associant une recherche sur les modalités de création du français scientifique (XIIe-XVe siècles) à l’élaboration d’un dictionnaire électronique et d’outils technologiques (modalités de balisage, programmes) qui permettent une étude scientifique de la création terminologique en français médiéval. La période médiévale sélectionnée (XIIe-XVe siècles), où les lieux de production du savoir qui relèvent du français se mettent en place, paraît comme fondamentale : le français y devient potentiellement scientifique, ou du moins langue de savoirs à côté du latin, alors qu’évoluent considérablement des concepts scientifiques au contact de la pensée aristotélicienne et des commentateurs et savants arabes et grecs.</p>
+ <h2><span class="texth2">Programme</span></h2> 
+
+Le projet CREALSCIENCE, qui réunit des compétences en dictionnairique, en linguistique médiévale et en histoire des sciences, doit permettre
+<ul>
+ <li>1/ Une connaissance de la genèse du français et de ses usages spécialisés dans une perspective panoramique de reconstruction de processus, absente jusque là des travaux de médiévistique et de terminologie, française ou générale. Il  s’agit de mettre en évidence des modèles de genèse et d’évolution et de mieux cerner les usages scientifiques du français médiéval et le sprocessus de création, de stabilisation et de glissement sémantique. </li>
+<li>2/ Une connaissance des textes scientifiques médiévaux en français et spécifiquement en astronomie</li>
+ <li>3/ Une avancée dans la dictionnairique, par l’élaboration d’un outil qui permette de mettre en évidence non seulement la partie stabilisée de la langue, mais aussi les relations sémantiques (synonymie, hyperonymie, méronymie) conçues comme évolutives.</li></ul></p>
+ <p> 
+ A ces objectifs scientifiques, s’ajoutent des avancées techniques :
+	<ul><li>1/Construction d’outils technologiques (modalités de balisage, programmes)</li>
+	<li>2/Productions de schèmes d’articles à partir de l’élaboration du Dictionnaire du Français Scientifique Médiéval (DFSM)</li></ul></p>
+
+<h2><span class="texth2">Réalisations</span></h2> 
+<p>
+Un ensemble de produits finaux seront réalisés : 
+<ul>
+<li>1/ Des publications <li>
+<ul><li>Le Dictionnaire du Français Scientifique Médiéval (DFSM)- proposera un inventaire et un panorama du vocabulaire scientifique, ainsi mis en évidence avec de nouvelles fonctionnalités par rapport aux dictionnaires existants. C’est le premier produit qui résulte de la pluridisciplinarité du projet . </li>
+ <li>Un ensemble de publications en ligne ou éditées sous version papier, notamment dans le domaine astronomique, permettra de faire connaître des textes encore inédits et pourtant fondamentaux pour l’histoire du français comme langue savante et permettra de dresser de nouveaux inventaires de textes scientifiques avec des éditions inédites, et de rendre compte de la recherche fondamentale sur la genèse d’une langue de spécialités au Moyen Age</li></ul> 
+
+<li>2/ Un site web : base de données  du DFSM, deuxième produit qui résulte de la pluridisciplinarité.</li>
+
+<li>3/Un atlas informatisé : un logiciel open source et des ressources selon la licence creative common</li></ul>
+</p>
+
+
+
+</div>
+</div>
+
