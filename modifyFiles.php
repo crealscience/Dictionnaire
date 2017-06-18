@@ -4,7 +4,6 @@
 	include "creal.class.php";
         $page = new pageCreal;
         include "fonctions.php";
-	header('Location: http://www.crealscience.fr/deviation.php');
 	 session_start();
 	
 	if ($_SESSION["authentification"] != "OK")
