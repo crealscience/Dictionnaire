@@ -1,3 +1,5 @@
+![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/copieEcran.png?raw=true)
+
 #  Pour l'archéologie et l'étymologie du projet 
 
 Git maintenu et géré par Xavier-Laurent Salvador
@@ -44,7 +46,7 @@ Fleur Vigneron
 Michèle Goyens 
 
 
-![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/copieEcran.png?raw=true)
+
 ![](https://github.com/crealscience/webSite/blob/master/design/consult.png?raw=true)
 ![](https://github.com/crealscience/webSite/blob/master/design/consult2.png?raw=true)
 
