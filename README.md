@@ -42,13 +42,9 @@ Fleur Vigneron
 ## Coordination pour la Médecine
 Michèle Goyens 
 
-![](https://github.com/crealscience/webSite/blob/master/design/consult.png?raw=true)
-
 #  Pour l'archéologie et l'étymologie du projet 
 
 Git maintenu et géré par Xavier-Laurent Salvador 
 [En savoir plus...](https://github.com/crealscience/description)
 
-![](https://github.com/crealscience/webSite/blob/master/design/consult2.png?raw=true)
 
-[En savoir plus...](https://github.com/crealscience/description)
