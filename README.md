@@ -17,4 +17,5 @@ Il a également pour ambition de permettre le développement d'une interface erg
 
 Il était architecturé autour d'un outil WYSIWYG en ligne pour l'édition collaborative de données XML né de la dynamique des travaux de thèse de Xavier-Laurent Salvador (2004) sur la gestion du corpus XML de la Bible historiale (http://www.biblehistoriale.fr) et de la rencontre avec Fabrice Issac au sein du Laboratoire LDI (2008); et d'une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur. 
 
-
+![](https://github.com/crealscience/webSite/blob/master/design/consult.png?raw=true)
+![](https://github.com/crealscience/webSite/blob/master/design/consult2.png?raw=true)
