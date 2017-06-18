@@ -10,7 +10,5 @@ Né de la restructuration XML des fichiers du Lexique du Vocabulaire Scientifiqu
 
 Il a également pour ambition de permettre le développement d'une interface ergonomique conceptuelle appuyée sur l'essor des moteurs de bases de données #noSql. Tout le dictionnaire a été contruit (Basex 6.3.1 !) an PHP avec une passerelle vers Basex.
 
-Il était architecturé autour de la gestion d'une base de données XML et d'un outil WYSIWIG en ligne pour l'édition collaborative de données XML, une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur.
-
-Le dictionnaire a bénéficié du développement d'une interface née dans le cadre du projet http://www.biblehistoriale.fr financé par la fondation Mellon. 
+Il était architecturé autour d'un outil WYSIWIG en ligne pour l'édition collaborative de données XML née des besoins des travaux de thèse de Xavier-Laurent Salvador sur la gestion du corpus de la Bible historiale (http://www.biblehistoriale.fr) et d'une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur. 
 
