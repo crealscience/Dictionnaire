@@ -1,11 +1,9 @@
-![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/copieEcran.png?raw=true)
-
 # Le site du dictionnaire Crealscience
 
 Ce projet GIT a pour objet la mise à disposition des fichiers (PHP, css, dtd, Js, XQuery) développés par Xavier-Laurent Salvador et Fabrice Issac pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) pour les périodes 2010-2014 puis 2015-2017.
 Les fichiers sont consultables et téléchargeables à l'adresse: [https://github.com/crealscience/description ](https://github.com/crealscience/description)
 
-![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
+![Copie d'écran du site](https://github.com/crealscience/webSite/blob/master/copieEcran.png?raw=true)
 
 # Qu'est-ce ?
 
@@ -16,6 +14,8 @@ Né de la restructuration XML des fichiers du Lexique du Vocabulaire Scientifiqu
 Il a également pour ambition de permettre le développement d'une interface ergonomique conceptuelle appuyée sur l'essor des moteurs de bases de données #noSql. Tout le dictionnaire a été contruit (Basex 6.3.1 !) an PHP avec une passerelle vers Basex.
 
 Il était architecturé autour d'un outil WYSIWYG en ligne pour l'édition collaborative de données XML né de la dynamique des travaux de thèse de Xavier-Laurent Salvador (2004) sur la gestion du corpus XML de la Bible historiale (http://www.biblehistoriale.fr) et de la rencontre avec Fabrice Issac au sein du Laboratoire LDI (2008); et d'une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur. 
+
+![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
 
 # Description des Responsabilités du Projet
 
