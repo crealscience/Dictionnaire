@@ -2,9 +2,9 @@
 
 Les fichiers développés par Xavier-Laurent Salvador et Fabrice Issac en partenariat avec Joëlle Ducos, Gérard Petit, Michèle Goyens et Fleur Vigneron pour le site du dictionnaire [Crealscience](http://www.agence-nationale-recherche.fr/?Projet=ANR-10-CREA-0007) - 2010-2014, maintenu de 2015 à 2017.
 
-# Qu'est-ce que c'était ?
+# Qu'est-ce ?
 
-Né du dépouillement des fichiers .doc du Lexique du Vocabulaire Scientifique de Danièle Jacquard et Claude Thomasset en 2003, le dictionnaire a réuni des équipes en Allemagne et en France. Le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
+Né de la restructuration XML des fichiers du Lexique du Vocabulaire Scientifique de Danièle Jacquard et Claude Thomasset en 2003, le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
 
 # Enjeu ergonomique et de représentation des lieux de données: Basex, XML, Humanités Numériques 
 
