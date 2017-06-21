@@ -7,7 +7,7 @@ Les fichiers sont consultables et téléchargeables à l'adresse: [https://githu
 
 # Qu'est-ce ?
 
-Né de la restructuration XML des fichiers du Lexique du Vocabulaire Scientifique de Danièle Jacquart et Claude Thomasset en 2003, le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
+Dans le prolongmenet assumé du Lexique du Vocabulaire Scientifique de Danièle Jacquart et Claude Thomasset en 2003, le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
 
 # Enjeu de représentation des données XML
 
