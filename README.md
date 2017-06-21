@@ -11,7 +11,7 @@ Dans le prolongement assumé du Lexique du Vocabulaire Scientifique de Danièle 
 
 # Enjeu de représentation des données XML
 
-Le dictionnaire était architecturé autour d'un outil WYSIWYG en ligne pour l'édition collaborative de données XML: PHP + Basex + [CodeMirror](https://codemirror.net) + JavaScript dont les premières approches trouvent leur origine dans les besoins de gestion de corpus comparés et d'annotations de thèse (Salvador, 2004) pour la [Bible historiale](http://www.biblehistoriale.fr) comparée aux autres sources et de la rencontre avec Fabrice Issac au sein du Laboratoire LDI (ex UMR 7187) qui a permis d'entamer une collaboration avec l'équipe [Basex](http://www.basex.org) de Christian Gruen. A cet outil d'édition et d'une modération par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador) qui possédaient chacun un compte administrateur. Le dictionnaire a été contruit (le dictionnaire a commencé avec Basex 6.3.1 et s'est développé jusqu'à la version 8.6.4) an PHP avec une passerelle vers Basex.
+Le dictionnaire était architecturé autour d'un outil WYSIWYG en ligne pour l'édition collaborative de données XML: PHP + Basex + [CodeMirror](https://codemirror.net) + JavaScript dont les premières approches trouvent leur origine dans les besoins de gestion de corpus comparés et d'annotations de thèse (Salvador, 2004) pour la [Bible historiale](http://www.biblehistoriale.fr) comparée aux autres sources et de la rencontre avec Fabrice Issac au sein du Laboratoire LDI (ex UMR 7187) qui a permis d'entamer une collaboration avec l'équipe [Basex](http://www.basex.org) de Christian Gruen. A cet outil d'édition s'ajoutait un outil de modération des entrées par les administrateurs du site (Joëlle Ducos et Xavier-Laurent Salvador). Le dictionnaire, comme cela peut se constater, a été contruit en PHP avec une passerelle vers un serveur Basex. Cette solution présente l'avantage d'un haut degré de sécurité. Cela donne un résultat parfaitement adapté à une situation très locale.
 
 ![](https://github.com/crealscience/webSite/blob/master/design/edit.png?raw=true)
 
@@ -39,8 +39,6 @@ Fleur Vigneron
 
 ## Coordination pour la Médecine
 Michèle Goyens 
-
-#  Pour l'archéologie et l'étymologie du projet 
 
 Git maintenu et géré par Xavier-Laurent Salvador 
 [En savoir plus...](https://github.com/crealscience/description)
