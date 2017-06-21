@@ -16,7 +16,7 @@ Le dictionnaire était architecturé autour d'un outil WYSIWYG en ligne pour l'�
 
 # Description des Responsabilités du Projet 2010-2017
 
-Co-Gestion financière des 190 000 € du projet associant deux équipes universitaires pour la période 2010-2014 puis pour la période 2015-2017 :
+Co-Gestion financière du projet associant deux équipes universitaires pour la période 2010-2014, non renouvelée:
 
 - Joëlle Ducos (STIH, Paris IV): 60%
 - Xavier-Laurent Salvador (LDI, Paris 13): 40%
@@ -38,6 +38,69 @@ Fleur Vigneron
 
 ## Coordination pour la Médecine
 Michèle Goyens 
+
+## Participants au projet
+
+### EA 4509 Sens Texte Informatique Histoire
+Hériché-Pradeau Sandrine MCF Philologie
+Marcotte Stéphane MCF Linguistique médiévale
+Silvi Christine MCF Linguistique médiévale
+Le Cornec Cécile MCF Linguistique médiévale
+Verjans Thomas MCF Linguistique
+Salamon Anne Professeur adjointe (Laval, Québec)
+Schauwecker Yela Post-Doc International
+Lambert Pauline Doctorante
+Sibille Arnaud ATER
+Petit Gérard MCF Lexicographie
+
+### Université Paris 13
+Issac Fabrice MCF Informatique (Analyse du Discours Numérique - ECC Paris XIII / HALL Sorbonne Paris - Cité))
+
+### Université de Nancy II
+Bazin-Tacchella Sylvie PR Linguistique médiévale
+
+### Université d’Orléans/IUF
+Boudet Jean-Patrice PR Histoire des sciences
+
+### DEAF- Heidelberg
+Dörr Stephen Chercheur Lexicographe
+
+### Université de Leuven
+Goyens Michelle PR Linguistique médiévale
+
+### Université de Bordeaux III
+Manes-Gallo Maria-Caterina PR Sciences de l’information et de la communication
+Portine Henri PR Linguistique
+
+### Aberystwyth University
+Trotter David PR Lexicographe
+
+### Université de Paris I
+Lamassé Stéphane MCF Histoire des sciences
+
+### Université de Nice
+Vedrenne Isabelle MCF Linguistique médiévale et histoire des sciences
+
+### Université de Grenoble
+Vigneron Fleur MCF Philologie
+
+### EPHE
+Husson Matthieu PRAG Histoire des sciences
+
+### DEAF-Heidelberg
+Kiwitt Marc Chercheur-doctorant Lexicographe
+
+### Collaborations temporaires
+Marco Fasciolo
+Yela Schauwecker
+Adeline Sanchez
+Pauline Lambert
+Lucie Viénot
+Élise Moreau
+Benjamion Francisco
+Les étudiants du Master de Cergy
+
+
 
 Git maintenu et géré par Xavier-Laurent Salvador 
 [En savoir plus...](https://github.com/crealscience/description)
