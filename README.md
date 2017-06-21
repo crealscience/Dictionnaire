@@ -43,14 +43,23 @@ Michèle Goyens
 
 ### EA 4509 Sens Texte Informatique Histoire
 Hériché-Pradeau Sandrine MCF Philologie
+
 Marcotte Stéphane MCF Linguistique médiévale
+
 Silvi Christine MCF Linguistique médiévale
+
 Le Cornec Cécile MCF Linguistique médiévale
+
 Verjans Thomas MCF Linguistique
+
 Salamon Anne Professeur adjointe (Laval, Québec)
+
 Schauwecker Yela Post-Doc International
+
 Lambert Pauline Doctorante
+
 Sibille Arnaud ATER
+
 Petit Gérard MCF Lexicographie
 
 ### Université Paris 13
@@ -92,12 +101,17 @@ Kiwitt Marc Chercheur-doctorant Lexicographe
 
 ### Collaborations temporaires
 Marco Fasciolo
+
 Yela Schauwecker
+
 Adeline Sanchez
-Pauline Lambert
+
 Lucie Viénot
+
 Élise Moreau
+
 Benjamion Francisco
+
 Les étudiants du Master de Cergy
 
 
