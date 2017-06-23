@@ -6,7 +6,7 @@ Ce projet GIT a pour objet la mise à disposition de la communauté des fichiers
 
 # Qu'est-ce ?
 
-Dans le prolongement assumé du Lexique du Vocabulaire Scientifique de Danièle Jacquart et Claude Thomasset en 2003, le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
+Dans le prolongement du Lexique de la langue scientifique ( astrologie, mathématiques, médecine...) de Danièle Jacquart et Claude Thomasset en 2003, le Dictionnaire Crealscience a pour ambition de donner un inventaire des créations terminologiques dès le XIIe siècle et jusqu’au XVe siècle pour des domaines dont le périmètre scientifique s’élabore lors de cette période et se précise ultérieurement.
 
 # Enjeu de représentation des données XML
 
